@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css';
 import Nav from '../Nav/Nav'
+import Landing from '../Landing/Landing'
 import Search from '../Search/Search'
 import Results from '../Results/Results'
 import Book from '../Book/Book'
@@ -39,7 +40,7 @@ function App() {
       <Search/>
       <main>
         <Routes>
-          <Route path='/'/>
+          <Route path='/' element={<Landing/>}/>
           <Route path='/search/:query/:index' element={<Results myBooks={myBooks} addRemove={addRemove}/>}/>
           <Route path='/books/:id' element={<Book myBooks={myBooks} addRemove={addRemove}/>}/>
           <Route path='/to-read' element={<ToRead myBooks={myBooks} addRemove={addRemove}/>}/>
