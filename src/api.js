@@ -1,3 +1,5 @@
+import { cleanupBooks, removeDuplicates } from "./helpers"
+
 function handleError(res) {
   if(!res.ok) {
     throw new Error(`HTTP Error: ${res.status} -- Please try again later`)
@@ -14,25 +16,8 @@ const getBooks = (query, index) => {
       .then(data => ({
         kind: data.kind,
         totalItems: data.totalItems,
-        items: data.items ? cleanupBooks(data.items) : []
+        items: data.items ? removeDuplicates(cleanupBooks(data.items)) : []
       }))
-}
-
-const cleanupBooks = (apiBooks) => {
-  return apiBooks.map(book => {
-    return ({
-      id: book.id,
-      title: book.volumeInfo.title,
-      authors: book.volumeInfo.authors || [],
-      publisher: book.volumeInfo.publisher,
-      publishedDate: book.volumeInfo.publishedDate,
-      images: {
-        smallThumbnail: book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : "",
-        thumbnail: book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : ""
-      },
-      status: null
-    })
-  })
 }
 
 const getBookDetails = (id) => {

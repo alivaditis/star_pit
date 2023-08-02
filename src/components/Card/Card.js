@@ -1,21 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import ButtonToRead from '../ButtonToRead/ButtonToRead'
 import './Card.css'
 
-function Card ({id, title, authors, publisher, publishedDate, images, status}) {
+function Card ({book, myBooks, addRemove}) {
   return (
     <div className='card'>
-      <Link to={`/books/${id}`}>
-        <img className='card-image' src={images.thumbnail}/>
+      <Link to={`/books/${book.id}`}>
+        <img className='card-image' src={book.images.thumbnail}/>
       </Link>
       <div className='card-info'>
-        <Link to={`/books/${id}`}>
-        <p className='card-title'>{title}</p>
+        <Link to={`/books/${book.id}`}>
+        <p className='card-title'>{book.title}</p>
         </Link>
-        <p className='card-authors'>{authors.join(', ')}</p>
-        {publishedDate && <p className='card-date'>{publishedDate.slice(0, 4)}</p>}
+        <p className='card-authors'>{book.authors.join(', ')}</p>
+        {book.publishedDate && <p className='card-date'>{book.publishedDate.slice(0, 4)}</p>}
       </div>
-        <button className='card-button'>want to read</button>
+      <ButtonToRead book={book} myBooks={myBooks} addRemove={addRemove}/>
     </div>
   )
 }

@@ -1,0 +1,15 @@
+.to-read-button {
+  border: none;
+  outline:none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(51, 118, 205);
+  height: 32px;
+  min-width: 120px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.to-read-button:hover {
+  cursor: pointer;
+}

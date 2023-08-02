@@ -4,7 +4,7 @@ import { getBooks } from '../../api'
 import Card from '../Card/Card'
 import './Results.css'
 
-function Results () {
+function Results ({myBooks, addRemove}) {
 
   
   const {query, index} = useParams()
@@ -27,7 +27,7 @@ function Results () {
   } else if (results.length) {
       return (
       <div className='results-container'>
-        {results.map((book, mapIndex) => <Card key={mapIndex} {...book} />)}
+        {results.map((book, mapIndex) => <Card key={mapIndex} book={book} myBooks={myBooks} addRemove={addRemove}/>)}
       </div>)
   } else {
       return (<p>{`No results for ${query}`}</p>)
