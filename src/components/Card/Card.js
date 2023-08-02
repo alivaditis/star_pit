@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import ButtonToRead from '../ButtonToRead/ButtonToRead'
 import './Card.css'
 
 function Card ({book, myBooks, addRemove}) {
@@ -15,9 +16,7 @@ function Card ({book, myBooks, addRemove}) {
         <p className='card-authors'>{book.authors.join(', ')}</p>
         {book.publishedDate && <p className='card-date'>{book.publishedDate.slice(0, 4)}</p>}
       </div>
-        <button className='card-button' onClick={() => addRemove(book)}>
-          {myBooks.some(myBook => myBook.id === book.id) ? '-' : '+' } want to read
-        </button>
+      <ButtonToRead book={book} myBooks={myBooks} addRemove={addRemove}/>
     </div>
   )
 }
