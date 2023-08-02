@@ -12,8 +12,8 @@ function Card ({id, title, authors, publisher, publishedDate, images, status}) {
         <Link to={`/books/${id}`}>
         <p className='card-title'>{title}</p>
         </Link>
-        <p>{authors.join(', ')}</p>
-        <p className='card-date'>{publishedDate.slice(0, 4)}</p>
+        <p className='card-authors'>{authors.join(', ')}</p>
+        {publishedDate && <p className='card-date'>{publishedDate.slice(0, 4)}</p>}
       </div>
         <button className='card-button'>want to read</button>
     </div>

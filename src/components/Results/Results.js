@@ -27,7 +27,7 @@ function Results () {
   } else if (results.length) {
       return (
       <div className='results-container'>
-        {results.map((book, mapIndex) => <Card key={book.id} {...book} />)}
+        {results.map((book, mapIndex) => <Card key={mapIndex} {...book} />)}
       </div>)
   } else {
       return (<p>{`No results for ${query}`}</p>)

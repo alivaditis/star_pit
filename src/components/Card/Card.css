@@ -18,6 +18,10 @@
   font-weight: bold;
 }
 
+.card-authors {
+  font-size: 14px;
+}
+
 .card-image {
   width: 96px;
   min-width: 96px;
