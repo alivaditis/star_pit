@@ -24,8 +24,8 @@ const cleanupBooks = (apiBooks) => {
       id: book.id,
       title: book.volumeInfo.title,
       authors: book.volumeInfo.authors || [],
-      publisher: book.volumeInfo.publisher || "",
-      publishedDate: book.volumeInfo.publishedDate || "",
+      publisher: book.volumeInfo.publisher,
+      publishedDate: book.volumeInfo.publishedDate,
       images: {
         smallThumbnail: book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : "",
         thumbnail: book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : ""
