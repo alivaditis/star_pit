@@ -17,7 +17,13 @@ body {
   max-width: 1200px;
   min-height: 100vh;
   margin: auto;
+  color: black;
+  background-color: rgb(233, 239, 241);
+}
+
+main {
   background-color: white;
+  min-height: 100vh;
 }
 
 img, picture, video, canvas, svg {
