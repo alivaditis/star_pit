@@ -20,7 +20,9 @@ function Card ({book, myBooks, addRemove}) {
         <p className='card-authors'>{book.authors.join(', ')}</p>
         {book.publishedDate && <p className='card-date'>{book.publishedDate.slice(0, 4)}</p>}
       </div>
-      <ButtonToRead book={book} myBooks={myBooks} addRemove={addRemove}/>
+      <div className='card-button'>
+        <ButtonToRead book={book} myBooks={myBooks} addRemove={addRemove}/>
+      </div>
     </div>
   )
 }

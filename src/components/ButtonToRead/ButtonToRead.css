@@ -1,13 +1,14 @@
 .to-read-button {
   border: none;
   outline:none;
-  border-radius: 10px;
+  border-radius: 6px;
   color: white;
   background-color: rgb(51, 118, 205);
   height: 32px;
   min-width: 120px;
   text-align: center;
-  margin-left: auto;
+  /* margin-left: auto; */
+  align-self: center;
 }
 
 .to-read-button:hover {

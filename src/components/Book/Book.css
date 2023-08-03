@@ -1,8 +1,48 @@
 .book {
-  text-align: center;
+  padding-top: 24px;
 }
 
 .book-image {
   height: auto;
   width: 112px;
+  margin: auto;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.book-title, .book-authors {
+  text-align: center;
+}
+
+.book-description {
+  padding: 24px;
+}
+
+.book-button {
+  margin: auto;
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 500px) {
+  .book-container {
+    display: flex;
+    padding: 24px;
+    /* justify-content: center; */
+  }  
+  
+  .book-title, .book-authors {
+    text-align: left;
+  }
+
+  .book-image {
+    margin: 0;
+    width: 124px;
+    margin-right:  24px;
+  }
+
+  .book-button {
+    display: block;
+  }
 }
