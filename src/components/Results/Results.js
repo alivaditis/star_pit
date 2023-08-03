@@ -30,7 +30,7 @@ function Results ({myBooks, addRemove}) {
         {results.map((book, mapIndex) => <Card key={mapIndex} book={book} myBooks={myBooks} addRemove={addRemove}/>)}
       </div>)
   } else {
-      return (<p>{`No results for ${query}`}</p>)
+      return (<p className='no-results'>{`No results for ${query}`}</p>)
   }
 
 }

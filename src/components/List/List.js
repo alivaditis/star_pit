@@ -2,10 +2,10 @@ import React, {useState, useEffect} from "react";
 import { useParams } from "react-router-dom";
 import Card from "../Card/Card";
 import { getList, getBooksInList } from "../../api";
-import { removeTags } from "../../helpers";
+import listImages from "./ListImages";
 import './List.css'
 
-function ToRead ({myBooks, addRemove}) {
+function ToRead ({myBooks, addRemove, img}) {
   const {id} = useParams()
   const [listInfo, setListInfo] = useState(null)
   const [listBooks, setListBooks] = useState(null)
@@ -28,6 +28,7 @@ function ToRead ({myBooks, addRemove}) {
   if (!isLoading) {
     return (
     <>
+      <img className='list-img' src ={process.env.PUBLIC_URL + listImages[id]}/>
       <h2 className='list-heading'>{listInfo.title} {listBooks.length ? `(${listBooks.length})` : ''} </h2>
       <p className='list-description'>{listInfo.description.replace('&#39;', "'")}</p>
       <div className='results-container'>

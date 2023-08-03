@@ -25,6 +25,7 @@ function App() {
     },
     "status": "to-read"
   }])
+  const [apiError, setApiError] = useState(null)
   
   const addRemove = (book) => {
     const newBook = {...book, status: 'to-read'}
