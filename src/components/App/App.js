@@ -8,6 +8,7 @@ import Results from '../Results/Results'
 import Book from '../Book/Book'
 import ToRead from '../ToRead/ToRead'
 import List from '../List/List'
+import Empty from '../Empty/Empty';
 
 function App() {
   const [myBooks, setMyBooks] = useState([{
@@ -46,7 +47,7 @@ function App() {
           <Route path='/books/:id' element={<Book myBooks={myBooks} addRemove={addRemove}/>}/>
           <Route path='/lists/:id' element={<List myBooks={myBooks} addRemove={addRemove}/>}/>
           <Route path='/to-read' element={<ToRead myBooks={myBooks} addRemove={addRemove}/>}/>
-          <Route path='*'/>
+          <Route path='*' element={<Empty/>}/>
         </Routes>
       </main>
     </>

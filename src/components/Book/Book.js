@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import { getBookDetails } from '../../api'
-import { removeTags, cleanupSingleBook } from '../../helpers'
+import { removeTags, cleanupSingleBook, formatDate } from '../../helpers'
 import ButtonToRead from '../ButtonToRead/ButtonToRead'
 import './Book.css'
 
@@ -31,6 +31,8 @@ function Book ({myBooks, addRemove}) {
             <div className='book-info'>
               <p className='book-title'>{book.volumeInfo.title}</p>
               <p className='book-authors'>{book.volumeInfo.authors.join(', ')}</p>
+              <p>{book.volumeInfo.publisher}</p>
+              <p>{book.volumeInfo.publishedDate ? formatDate(book.volumeInfo.publishedDate) : ''}</p>
               <div className='book-button'>
                   <ButtonToRead className='book-button' myBooks={myBooks} addRemove={addRemove} book={cleanupSingleBook(book)}/>
               </div>

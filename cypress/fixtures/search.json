@@ -1,0 +1,896 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 284,
+  "items": [
+      {
+          "kind": "books#volume",
+          "id": "Wo9pEAAAQBAJ",
+          "etag": "bXI06kz97q4",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Wo9pEAAAQBAJ",
+          "volumeInfo": {
+              "title": "The Terraformers",
+              "authors": [
+                  "Annalee Newitz"
+              ],
+              "publisher": "Tor Books",
+              "publishedDate": "2023-01-31",
+              "description": "From science fiction visionary Annalee Newitz comes The Terraformers, a sweeping, uplifting, and illuminating exploration of the future. Destry's life is dedicated to terraforming Sask-E. As part of the Environmental Rescue Team, she cares for the planet and its burgeoning eco-systems as her parents and their parents did before her. But the bright, clean future they're building comes under threat when Destry discovers a city full of people that shouldn’t exist, hidden inside a massive volcano. As she uncovers more about their past, Destry begins to question the mission she's devoted her life to, and must make a choice that will reverberate through Sask-E's future for generations to come. A science fiction epic for our times and a love letter to our future, The Terraformers will take you on a journey spanning thousands of years and exploring the triumphs, strife, and hope that find us wherever we make our home. \"Brilliantly thoughtful, prescient, and gripping.”—Martha Wells, author of The Murderbot Diaries Also by Annalee Newitz Autonomous The Future of Another Timeline At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781250228062"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1250228069"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": false
+              },
+              "pageCount": 348,
+              "printType": "BOOK",
+              "categories": [
+                  "Fiction"
+              ],
+              "averageRating": 3.5,
+              "ratingsCount": 4,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": true,
+              "contentVersion": "1.5.5.0.preview.2",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=Wo9pEAAAQBAJ&pg=PT141&dq=terraformers+subject:%22fiction_science_fiction%22&hl=&as_pt=BOOKS&cd=1&source=gbs_api",
+              "infoLink": "https://play.google.com/store/books/details?id=Wo9pEAAAQBAJ&source=gbs_api",
+              "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Wo9pEAAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "US",
+              "saleability": "FOR_SALE",
+              "isEbook": true,
+              "listPrice": {
+                  "amount": 14.99,
+                  "currencyCode": "USD"
+              },
+              "retailPrice": {
+                  "amount": 14.99,
+                  "currencyCode": "USD"
+              },
+              "buyLink": "https://play.google.com/store/books/details?id=Wo9pEAAAQBAJ&rdid=book-Wo9pEAAAQBAJ&rdot=1&source=gbs_api",
+              "offers": [
+                  {
+                      "finskyOfferType": 1,
+                      "listPrice": {
+                          "amountInMicros": 14990000,
+                          "currencyCode": "USD"
+                      },
+                      "retailPrice": {
+                          "amountInMicros": 14990000,
+                          "currencyCode": "USD"
+                      },
+                      "giftable": true
+                  }
+              ]
+          },
+          "accessInfo": {
+              "country": "US",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=Wo9pEAAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "“That <b>terraformer</b> Destry Jr.—she&#39;s a great network analyst. But she&#39;s also a giant gut tumor.” Helic seemed to wake up suddenly, and pulled his attention away from the work he&#39;d been doing. “What happened now?” Ronnie&#39;s smile evaporated&nbsp;..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "Wo9pEAAAQBAJ",
+          "etag": "LYYfFnNChQY",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Wo9pEAAAQBAJ",
+          "volumeInfo": {
+              "title": "The Terraformers",
+              "authors": [
+                  "Annalee Newitz"
+              ],
+              "publisher": "Tor Books",
+              "publishedDate": "2023-01-31",
+              "description": "From science fiction visionary Annalee Newitz comes The Terraformers, a sweeping, uplifting, and illuminating exploration of the future. Destry's life is dedicated to terraforming Sask-E. As part of the Environmental Rescue Team, she cares for the planet and its burgeoning eco-systems as her parents and their parents did before her. But the bright, clean future they're building comes under threat when Destry discovers a city full of people that shouldn’t exist, hidden inside a massive volcano. As she uncovers more about their past, Destry begins to question the mission she's devoted her life to, and must make a choice that will reverberate through Sask-E's future for generations to come. A science fiction epic for our times and a love letter to our future, The Terraformers will take you on a journey spanning thousands of years and exploring the triumphs, strife, and hope that find us wherever we make our home. \"Brilliantly thoughtful, prescient, and gripping.”—Martha Wells, author of The Murderbot Diaries Also by Annalee Newitz Autonomous The Future of Another Timeline At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781250228062"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1250228069"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": false
+              },
+              "pageCount": 348,
+              "printType": "BOOK",
+              "categories": [
+                  "Fiction"
+              ],
+              "averageRating": 3.5,
+              "ratingsCount": 4,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": true,
+              "contentVersion": "1.5.5.0.preview.2",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=Wo9pEAAAQBAJ&printsec=frontcover&dq=terraformers+subject:%22fiction_science_fiction%22&hl=&as_pt=BOOKS&cd=2&source=gbs_api",
+              "infoLink": "https://play.google.com/store/books/details?id=Wo9pEAAAQBAJ&source=gbs_api",
+              "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Wo9pEAAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "US",
+              "saleability": "FOR_SALE",
+              "isEbook": true,
+              "listPrice": {
+                  "amount": 14.99,
+                  "currencyCode": "USD"
+              },
+              "retailPrice": {
+                  "amount": 14.99,
+                  "currencyCode": "USD"
+              },
+              "buyLink": "https://play.google.com/store/books/details?id=Wo9pEAAAQBAJ&rdid=book-Wo9pEAAAQBAJ&rdot=1&source=gbs_api",
+              "offers": [
+                  {
+                      "finskyOfferType": 1,
+                      "listPrice": {
+                          "amountInMicros": 14990000,
+                          "currencyCode": "USD"
+                      },
+                      "retailPrice": {
+                          "amountInMicros": 14990000,
+                          "currencyCode": "USD"
+                      },
+                      "giftable": true
+                  }
+              ]
+          },
+          "accessInfo": {
+              "country": "US",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=Wo9pEAAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "From science fiction visionary Annalee Newitz comes The Terraformers, a sweeping, uplifting, and illuminating exploration of the future."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "v6uYEAAAQBAJ",
+          "etag": "2TIXEdXAmIc",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/v6uYEAAAQBAJ",
+          "volumeInfo": {
+              "title": "Sneak Peek for The Terraformers",
+              "authors": [
+                  "Annalee Newitz"
+              ],
+              "publisher": "Tor Books",
+              "publishedDate": "2022-11-22",
+              "description": "From science fiction visionary Annalee Newitz comes The Terraformers, a sweeping, uplifting, and illuminating exploration of the future. Download a FREE sneak peek today! Destry's life is dedicated to terraforming Sask-E. As part of the Environmental Rescue Team, she cares for the planet and its burgeoning eco-systems as her parents and their parents did before her. But the bright, clean future they're building comes under threat when Destry discovers a city full of people that shouldn’t exist, hidden inside a massive volcano. As she uncovers more about their past, Destry begins to question the mission she's devoted her life to, and must make a choice that will reverberate through Sask-E's future for generations to come. A science fiction epic for our times and a love letter to our future, The Terraformers will take you on a journey spanning thousands of years and exploring the triumphs, strife, and hope that find us wherever we make our home. \"Brilliantly thoughtful, prescient, and gripping.”--Martha Wells, The Murderbot Diaries Also by Annalee Newitz Autonomous The Future of Another Timeline At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781250907547"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1250907543"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": false
+              },
+              "pageCount": 75,
+              "printType": "BOOK",
+              "categories": [
+                  "Fiction"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": true,
+              "contentVersion": "1.2.2.0.preview.2",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=v6uYEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=v6uYEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=v6uYEAAAQBAJ&printsec=frontcover&dq=terraformers+subject:%22fiction_science_fiction%22&hl=&as_pt=BOOKS&cd=3&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=v6uYEAAAQBAJ&dq=terraformers+subject:%22fiction_science_fiction%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Sneak_Peek_for_The_Terraformers.html?hl=&id=v6uYEAAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "US",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "US",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=v6uYEAAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "From science fiction visionary Annalee Newitz comes The Terraformers, a sweeping, uplifting, and illuminating exploration of the future."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "6qVdDwAAQBAJ",
+          "etag": "WymQ2n6RO8A",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/6qVdDwAAQBAJ",
+          "volumeInfo": {
+              "title": "Fallout: Scions of the Star Empire #2",
+              "authors": [
+                  "Athena Grayson"
+              ],
+              "publisher": "Uncharted Worlds Media",
+              "publishedDate": "2018-05-28",
+              "description": "A good deed is a hard sell when you're a bad girl. Among Landfall's elite, reputation runs everything--even the economy. Princess Ione has cashed in on playing the party girl for most of her life, but not even an imperial princess can escape the fallout of one too many scandals. Her efforts to repair her reputation have tanked, but she gets one last chance to make good, by planning a charity function for an embattled colony world. If she's going to go from party princess to people's princess, she's going to need all the friends she can get, including the man who could have been her prince, but can now only be her secret. For Den Hades, his rising star comes with a dangerous tail. His father's rage has only grown since Den's one act of defiance ruined his House's chances of alliance with the Imperial House--and kept him away from the princess who captured his heart. Den's rising Social Capital edges him closer to achieving Scionhood and freedom, but his father's influence peels more of Den's friends away. As his friends buckle under pressure from their own Houses to choose sides, his only chance is to find allies among his enemies and keep his secrets closer than ever--including his secret relationship with Ione. It's not the fall that'll kill you...It's the sudden stop at the end.",
+              "readingModes": {
+                  "text": true,
+                  "image": true
+              },
+              "pageCount": 230,
+              "printType": "BOOK",
+              "categories": [
+                  "Fiction"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "1.1.1.0.preview.3",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=6qVdDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=6qVdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=6qVdDwAAQBAJ&pg=PT226&dq=terraformers+subject:%22fiction_science_fiction%22&hl=&as_pt=BOOKS&cd=4&source=gbs_api",
+              "infoLink": "https://play.google.com/store/books/details?id=6qVdDwAAQBAJ&source=gbs_api",
+              "canonicalVolumeLink": "https://play.google.com/store/books/details?id=6qVdDwAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "US",
+              "saleability": "FOR_SALE",
+              "isEbook": true,
+              "listPrice": {
+                  "amount": 6.48,
+                  "currencyCode": "USD"
+              },
+              "retailPrice": {
+                  "amount": 6.48,
+                  "currencyCode": "USD"
+              },
+              "buyLink": "https://play.google.com/store/books/details?id=6qVdDwAAQBAJ&rdid=book-6qVdDwAAQBAJ&rdot=1&source=gbs_api",
+              "offers": [
+                  {
+                      "finskyOfferType": 1,
+                      "listPrice": {
+                          "amountInMicros": 6480000,
+                          "currencyCode": "USD"
+                      },
+                      "retailPrice": {
+                          "amountInMicros": 6480000,
+                          "currencyCode": "USD"
+                      },
+                      "giftable": true
+                  }
+              ]
+          },
+          "accessInfo": {
+              "country": "US",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true
+              },
+              "pdf": {
+                  "isAvailable": true
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=6qVdDwAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "“It&#39;s some obscure geology journal, but it mentions the existence of an historical claim by the <b>Terraformers</b> Guild.” The article was long and heavy but Grassa tapped the relevant information and Ione spotted the paragraph in question&nbsp;..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "1InMDgAAQBAJ",
+          "etag": "ZjitKsgnmxw",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/1InMDgAAQBAJ",
+          "volumeInfo": {
+              "title": "Across the Great Rift",
+              "authors": [
+                  "Scott Washburn"
+              ],
+              "publisher": "Winged Hussar Publishing",
+              "publishedDate": "2017-06-01",
+              "description": "A science fiction novel set in the far future. The new empires, which have arisen from the rubble of a devastating war, are looking with greedy eyes across the Great Rift to the untouched stars which lie there. Great riches and power will come to those who can control them. Engineer Charles Crawford has been dispatched with Terraformer Regina Nassau and a bold expedition on a ten-year voyage to establish a colony and transport gate on the far side of the Rift. But a rival power is determined to hijack the attempt and has secreted an agent in the expedition to disrupt it with sabotage and murder. With the political and military personnel dead, the task of carrying on falls to the engineers and technicians. Crawford and Nassau must mold the survivors into a force capable of resisting an enemy attack while continuing their primary task of establishing the colony and building the all-important transport gate. Their task is further complicated by the fact that the far side of the Rift is not as uninhabited as it was supposed to be. Refugees from the earlier, destroyed civilization have already made a home here and they look upon the newcomers with decidedly mixed emotions. Crawford and Nassau must try to win the trust of the natives if they are to have any hope against the coming enemy attack.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780997094695"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0997094699"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": true
+              },
+              "pageCount": 325,
+              "printType": "BOOK",
+              "categories": [
+                  "Fiction"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.4.4.0.preview.3",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=1InMDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=1InMDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=1InMDgAAQBAJ&pg=PT147&dq=terraformers+subject:%22fiction_science_fiction%22&hl=&as_pt=BOOKS&cd=5&source=gbs_api",
+              "infoLink": "https://play.google.com/store/books/details?id=1InMDgAAQBAJ&source=gbs_api",
+              "canonicalVolumeLink": "https://play.google.com/store/books/details?id=1InMDgAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "US",
+              "saleability": "FOR_SALE",
+              "isEbook": true,
+              "listPrice": {
+                  "amount": 9.99,
+                  "currencyCode": "USD"
+              },
+              "retailPrice": {
+                  "amount": 7.99,
+                  "currencyCode": "USD"
+              },
+              "buyLink": "https://play.google.com/store/books/details?id=1InMDgAAQBAJ&rdid=book-1InMDgAAQBAJ&rdot=1&source=gbs_api",
+              "offers": [
+                  {
+                      "finskyOfferType": 1,
+                      "listPrice": {
+                          "amountInMicros": 9990000,
+                          "currencyCode": "USD"
+                      },
+                      "retailPrice": {
+                          "amountInMicros": 7990000,
+                          "currencyCode": "USD"
+                      },
+                      "giftable": true
+                  }
+              ]
+          },
+          "accessInfo": {
+              "country": "US",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Across_the_Great_Rift-sample-epub.acsm?id=1InMDgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Across_the_Great_Rift-sample-pdf.acsm?id=1InMDgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=1InMDgAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "By the time the terraforming was finished, the <b>terraformers</b> would be completely human again and would be the first colonists. It was an elegant and audacious solution to the problem.” “It sounds horrible,” said Tosh Briggs."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "cemxEAAAQBAJ",
+          "etag": "5C6XoQHu8TI",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/cemxEAAAQBAJ",
+          "volumeInfo": {
+              "title": "Operation November Blizzard",
+              "subtitle": "The Ben Sutter Series-Book 1",
+              "authors": [
+                  "Stephen Snow"
+              ],
+              "publisher": "Dorrance Publishing",
+              "publishedDate": "2023-02-10",
+              "description": "Operation November Blizzard: The Ben Sutter Series-Book 1 By: Stephen Snow When Ben Sutter, decorated soldier, sniper, and member of the Space Force, is approached by the president of the United States with an offer to lead an expedition in outer space to mine rare earth elements from a passing asteroid, he’s quick to seize the opportunity. What will he and his crew find as they explore this new frontier? A story about the future of civilization, Operation November Blizzard speculates about the future of space travel, advocating for global unity and cooperation as we move out into the Solar System and into worlds beyond.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9798886830767"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 140,
+              "printType": "BOOK",
+              "categories": [
+                  "Fiction"
+              ],
+              "averageRating": 5,
+              "ratingsCount": 1,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=cemxEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=cemxEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=cemxEAAAQBAJ&pg=PA60&dq=terraformers+subject:%22fiction_science_fiction%22&hl=&as_pt=BOOKS&cd=6&source=gbs_api",
+              "infoLink": "https://play.google.com/store/books/details?id=cemxEAAAQBAJ&source=gbs_api",
+              "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cemxEAAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "US",
+              "saleability": "FOR_SALE",
+              "isEbook": true,
+              "listPrice": {
+                  "amount": 10,
+                  "currencyCode": "USD"
+              },
+              "retailPrice": {
+                  "amount": 10,
+                  "currencyCode": "USD"
+              },
+              "buyLink": "https://play.google.com/store/books/details?id=cemxEAAAQBAJ&rdid=book-cemxEAAAQBAJ&rdot=1&source=gbs_api",
+              "offers": [
+                  {
+                      "finskyOfferType": 1,
+                      "listPrice": {
+                          "amountInMicros": 10000000,
+                          "currencyCode": "USD"
+                      },
+                      "retailPrice": {
+                          "amountInMicros": 10000000,
+                          "currencyCode": "USD"
+                      },
+                      "giftable": true
+                  }
+              ]
+          },
+          "accessInfo": {
+              "country": "US",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=cemxEAAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "The landing site for the module was in the Tharsis quadrangle, about halfway between one of the <b>terraformers</b> and Mars&#39;s largest volcano, Olympus Mons (Latin for Mount Olympus). Zaitsev had read about the volcano, but to see in person&nbsp;..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "HrF6BwAAQBAJ",
+          "etag": "r9hYen/LWk8",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/HrF6BwAAQBAJ",
+          "volumeInfo": {
+              "title": "Realms of Wonder",
+              "subtitle": "A Fourteen Novel Superpack of Fantasy & Science Fiction",
+              "authors": [
+                  "Aaron Rosenberg",
+                  "David Niall Wilson",
+                  "Al Sarrantonio",
+                  "Chet Williamson",
+                  "Charles L. Grant",
+                  "Craig Shaw Gardner",
+                  "Melissa Scott",
+                  "Jo Graham",
+                  "Kathryn Ptacek",
+                  "John DeFilippis"
+              ],
+              "publisher": "Crossroad Press",
+              "description": "The first of our series of holiday bundles, Realms of Wonder features fourteen novels of science fiction or fantasy by various award-winning and bestselling authors. For $2.99, you're getting fourteen novels, each the first book in a continuing series, containing over 1.15 million words in total, and a savings of almost $50 if each title was purchased separately. This bundle is only available for a limited time, so purchase your copy before it's gone. Titles included in this collection: The Birth of the Dread Remora - by Aaron Rosenberg - Book I of The Tales of the Scattered Earth The Parting - by David Niall Wilson - Book I of the Novels of the O.C.L.T. Haydn of Mars - By Al Sarrantonio - Book I of The Masters of Mars Trilogy City of Iron - By Chet Williamson - Book I of The Searchers Series Exile - By Al Sarrantonio - Book One of The Five Worlds Trilogy Blood River Down - By Charles L. Grant - Book I of The Quest for the White Duck Trilogy A Malady of Magicks - By Craig Shaw Gardner - Book I of The Ebenezum Series Symphony - By Charles L. Grant - Book I of The Millennium Quartet Lost Things - By Melissa Scott & Jo Graham - Book I of The Order of the Air The Phoenix Bells - By Kathryn Ptacek - Book I of The Land of Ten Thousand Willows Heart of a Dragon - By David Niall Wilson - Book I of The DeChance Chronicles No Small Bills - By Aaron Rosenberg - Book I of The Adventures of DuckBob Five-Twelfths of Heaven - By Melissa Scott - Book I of The Roads of Heaven Trilogy The Quest of the Thirteen - By John DeFilippis - Book I of The Medallion of Mavinor Series",
+              "readingModes": {
+                  "text": true,
+                  "image": true
+              },
+              "pageCount": 3455,
+              "printType": "BOOK",
+              "categories": [
+                  "Fiction"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": true,
+              "contentVersion": "1.1.2.0.preview.3",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=HrF6BwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=HrF6BwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=HrF6BwAAQBAJ&pg=PT960&dq=terraformers+subject:%22fiction_science_fiction%22&hl=&as_pt=BOOKS&cd=7&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=HrF6BwAAQBAJ&dq=terraformers+subject:%22fiction_science_fiction%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Realms_of_Wonder.html?hl=&id=HrF6BwAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "US",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "US",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true
+              },
+              "pdf": {
+                  "isAvailable": true
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=HrF6BwAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Ramir, leader of the Engineering Corps, highest guild of the <b>Terraformers</b>, and therefore de facto ruler of the ... It was outofdate garb, even for a <b>Terraformer</b>, and <b>Terraformers</b> were a group not known for their sartorial sharpness."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "658REAAAQBAJ",
+          "etag": "oTGEukEVsg8",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/658REAAAQBAJ",
+          "volumeInfo": {
+              "title": "THE PROMISED LAND - OMEGA",
+              "authors": [
+                  "ANDREEA DOBASU"
+              ],
+              "publisher": "ANDREEA DOBAŞU",
+              "description": "“Think of me as a painter, Robin! I took the human genetic material and I colored a new painting, a new species, and Omega is the canvas I’m going to paint it on …” He looked into the engineer's eyes, trying to convey to him his love for this art form he had invented. Painting with human genes... until he got the perfect picture, the work that would never be destroyed, never get sick or be smeared with other colours than those allowed by the creator-painter.\"",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9786061349401"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "6061349408"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 208,
+              "printType": "BOOK",
+              "categories": [
+                  "Fiction"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.1.1.0.preview.1",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=658REAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=658REAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=658REAAAQBAJ&pg=PA51&dq=terraformers+subject:%22fiction_science_fiction%22&hl=&as_pt=BOOKS&cd=8&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=658REAAAQBAJ&dq=terraformers+subject:%22fiction_science_fiction%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/THE_PROMISED_LAND_OMEGA.html?hl=&id=658REAAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "US",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "US",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/THE_PROMISED_LAND_OMEGA-sample-pdf.acsm?id=658REAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=658REAAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "As he spoke, his voice calmed down and he accepted the outburst of the <b>terraformer</b> as one of his minuses. ... the approval of the Chief of Security, I want his people to give a helping hand to the <b>terraformers</b> to install the equipment."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "o5XFDgAAQBAJ",
+          "etag": "P78WFveoKaQ",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/o5XFDgAAQBAJ",
+          "volumeInfo": {
+              "title": "Variance",
+              "subtitle": "Raise Your Weapon",
+              "authors": [
+                  "Josen Llave"
+              ],
+              "publisher": "iUniverse",
+              "publishedDate": "2017-04-10",
+              "description": "Paul Benedict is not like his fellow Utopians, immortals who live in absolute peace and love. He possesses the will to fight back, and he knows he must do so in order to protect his wife and daughters. When alien scouts terrorize Pauls planet, he and his family work together to engineer a nonlethal battle suit designed to stop the attacks. The source of the invasion is a man named Shadow who is intent on eliminating the Utopian race, whom he calls violators of Gods power of life. He is also the game master of Divine Mighta gladiator game that may represent the Utopians only hope. Using his invented suit, Paul embarks on a journey to gain mercy for his race by conquering the game, in which the champions wish comes true. Only time will tell if he will survive and manage to do what is right when everything around him is wrong.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781532012815"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1532012810"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": true
+              },
+              "pageCount": 278,
+              "printType": "BOOK",
+              "categories": [
+                  "Fiction"
+              ],
+              "averageRating": 5,
+              "ratingsCount": 1,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.2.2.0.preview.3",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=o5XFDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=o5XFDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=o5XFDgAAQBAJ&pg=PT218&dq=terraformers+subject:%22fiction_science_fiction%22&hl=&as_pt=BOOKS&cd=9&source=gbs_api",
+              "infoLink": "https://play.google.com/store/books/details?id=o5XFDgAAQBAJ&source=gbs_api",
+              "canonicalVolumeLink": "https://play.google.com/store/books/details?id=o5XFDgAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "US",
+              "saleability": "FOR_SALE",
+              "isEbook": true,
+              "listPrice": {
+                  "amount": 1.99,
+                  "currencyCode": "USD"
+              },
+              "retailPrice": {
+                  "amount": 1.99,
+                  "currencyCode": "USD"
+              },
+              "buyLink": "https://play.google.com/store/books/details?id=o5XFDgAAQBAJ&rdid=book-o5XFDgAAQBAJ&rdot=1&source=gbs_api",
+              "offers": [
+                  {
+                      "finskyOfferType": 1,
+                      "listPrice": {
+                          "amountInMicros": 1990000,
+                          "currencyCode": "USD"
+                      },
+                      "retailPrice": {
+                          "amountInMicros": 1990000,
+                          "currencyCode": "USD"
+                      },
+                      "giftable": true
+                  }
+              ]
+          },
+          "accessInfo": {
+              "country": "US",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true
+              },
+              "pdf": {
+                  "isAvailable": true
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=o5XFDgAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Explosions quickly arrived at Paul&#39;s location, and <b>terraformers</b> destroyed all the buildings around him. He directed the projectiles and lasers toward the <b>terraformers</b> and blocked Shadow&#39;s assaults in another material exchange."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "Zs92EAAAQBAJ",
+          "etag": "zdYv9MmKIcE",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Zs92EAAAQBAJ",
+          "volumeInfo": {
+              "title": "No One Can Hear You Train",
+              "authors": [
+                  "Cassandra Morphy"
+              ],
+              "publisher": "Crowbarland Books",
+              "publishedDate": "2021-09-01",
+              "description": "After escaping the pirates that had captured them, Dor and her friends crash land in the badlands of New Triton. But even with their emergency beacon running, no one seemed ready or willing to help them. The politics of the oncoming war has followed them from the space station. Even those that don't know about the war could feel it in the wind of the Terran Alliance. The only way for the group to be rescued was for them to take the dangerous trek across the inhospitable desert, hoping to make it to the terraformed section of the colony. Once saved from their destroyed ship, Dor, Derryl, and Worse resume their original plans, heading to Earth for basic training. Dor's wife, Kenya, had arrived ahead of them, greeting her like the old friend that she was. Only everything isn't the same between them. Not after that kiss. Not after the time apart. Not with Kenya flourishing in training, and Dor falling behind. But at least Dor isn't alone in failing. At least, not at first. But not everything at basic training is on the level. Something is happening in the shadows. A mystery that Dor can't quite figure out. But not for lack of trying. Besides, in space, no one can hear you train.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781005666668"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1005666660"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": true
+              },
+              "pageCount": 457,
+              "printType": "BOOK",
+              "categories": [
+                  "Fiction"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.2.2.0.preview.3",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=Zs92EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=Zs92EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=Zs92EAAAQBAJ&pg=PT33&dq=terraformers+subject:%22fiction_science_fiction%22&hl=&as_pt=BOOKS&cd=10&source=gbs_api",
+              "infoLink": "https://play.google.com/store/books/details?id=Zs92EAAAQBAJ&source=gbs_api",
+              "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Zs92EAAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "US",
+              "saleability": "FOR_SALE",
+              "isEbook": true,
+              "listPrice": {
+                  "amount": 2.99,
+                  "currencyCode": "USD"
+              },
+              "retailPrice": {
+                  "amount": 2.99,
+                  "currencyCode": "USD"
+              },
+              "buyLink": "https://play.google.com/store/books/details?id=Zs92EAAAQBAJ&rdid=book-Zs92EAAAQBAJ&rdot=1&source=gbs_api",
+              "offers": [
+                  {
+                      "finskyOfferType": 1,
+                      "listPrice": {
+                          "amountInMicros": 2990000,
+                          "currencyCode": "USD"
+                      },
+                      "retailPrice": {
+                          "amountInMicros": 2990000,
+                          "currencyCode": "USD"
+                      },
+                      "giftable": true
+                  }
+              ]
+          },
+          "accessInfo": {
+              "country": "US",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/No_One_Can_Hear_You_Train-sample-epub.acsm?id=Zs92EAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/No_One_Can_Hear_You_Train-sample-pdf.acsm?id=Zs92EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=Zs92EAAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Down below me, at the bottom of a chasm, were the <b>terraformers</b>. That light that I had been following were the lights that stretched across their length. The field that they generated, a cross between Delnadian science and Terran magic,&nbsp;..."
+          }
+      }
+  ]
+}
