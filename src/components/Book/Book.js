@@ -5,7 +5,7 @@ import { removeTags, cleanupSingleBook, formatDate } from '../../helpers'
 import ButtonToRead from '../ButtonToRead/ButtonToRead'
 import './Book.css'
 
-function Book ({myBooks, addRemove}) {
+function Book ({myBooks, addRemove, handleApiError}) {
   const [book, setBook] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
 
@@ -19,6 +19,7 @@ function Book ({myBooks, addRemove}) {
         setBook(data)
         setIsLoading(false)
       })
+      .catch(error => handleApiError(error))
   }, [id])
 
   return (

@@ -37,20 +37,26 @@ function App() {
     }
   }
 
+  const handleApiError = (error) => {
+    setApiError(error)
+  }
+
   return (
     <>
       <Nav/>
       <Search/>
-      <main>
-        <Routes>
-          <Route path='/' element={<Landing/>}/>
-          <Route path='/search/:query/:index' element={<Results myBooks={myBooks} addRemove={addRemove}/>}/>
-          <Route path='/books/:id' element={<Book myBooks={myBooks} addRemove={addRemove}/>}/>
-          <Route path='/lists/:id' element={<List myBooks={myBooks} addRemove={addRemove}/>}/>
-          <Route path='/to-read' element={<ToRead myBooks={myBooks} addRemove={addRemove}/>}/>
-          <Route path='*' element={<Empty/>}/>
-        </Routes>
-      </main>
+      {apiError ? <h2>{apiError.message}</h2> :
+        <main>
+          <Routes>
+            <Route path='/' element={<Landing/>}/>
+            <Route path='/search/:query/:index' element={<Results myBooks={myBooks} addRemove={addRemove} handleApiError={handleApiError}/>}/>
+            <Route path='/books/:id' element={<Book myBooks={myBooks} addRemove={addRemove} handleApiError={handleApiError}/>}/>
+            <Route path='/lists/:id' element={<List myBooks={myBooks} addRemove={addRemove} handleApiError={handleApiError}/>}/>
+            <Route path='/to-read' element={<ToRead myBooks={myBooks} addRemove={addRemove}/>}/>
+            <Route path='*' element={<Empty/>}/>
+          </Routes>
+        </main>
+      }
     </>
   );
 }

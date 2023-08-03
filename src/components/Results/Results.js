@@ -4,7 +4,7 @@ import { getBooks } from '../../api'
 import Card from '../Card/Card'
 import './Results.css'
 
-function Results ({myBooks, addRemove}) {
+function Results ({myBooks, addRemove, handleApiError}) {
 
   
   const {query, index} = useParams()
@@ -20,6 +20,7 @@ function Results ({myBooks, addRemove}) {
         setTotalItems(data.totalItems)
         setIsLoading(false)
       })
+      .catch(error => handleApiError(error))
   }, [query, index])
 
   if (isLoading) {

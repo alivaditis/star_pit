@@ -5,27 +5,33 @@ import { getList, getBooksInList } from "../../api";
 import listImages from "./ListImages";
 import './List.css'
 
-function ToRead ({myBooks, addRemove, img}) {
+function ToRead ({myBooks, addRemove, handleApiError}) {
   const {id} = useParams()
   const [listInfo, setListInfo] = useState(null)
   const [listBooks, setListBooks] = useState(null)
-  const [isLoading, setIsLoading] = useState(true)
+  // const [isLoading, setIsLoading] = useState(true)
 
   
   useEffect(() => {
-    setIsLoading(true)
+    // setIsLoading(true)
     getList(id)
       .then(data => {
         setListInfo(data)
-        getBooksInList(id)
-          .then(data => {
-            setListBooks(data.items)
-            setIsLoading(false)
-          })
       })
-  }, [id])
+      .catch(error => handleApiError(error))
+    }, [id])
 
-  if (!isLoading) {
+  useEffect(() => {
+    getBooksInList(id)
+      .then(data => {
+        setListBooks(data.items)
+      })
+      .catch(error => handleApiError(error))
+    }, [id])
+
+    
+
+  if (listInfo && listBooks) {
     return (
     <>
       <img className='list-img' src ={process.env.PUBLIC_URL + listImages[id]}/>
