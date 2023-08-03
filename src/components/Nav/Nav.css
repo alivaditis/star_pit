@@ -1,0 +1,11 @@
+.nav-star-pit {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  color: rgb(233, 239, 241);
+  background-color: rgb(37, 91, 112);
+}
+
+.tab {
+  margin-left: auto;
+}

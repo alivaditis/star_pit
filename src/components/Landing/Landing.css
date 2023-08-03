@@ -1,0 +1,36 @@
+.landing-container {
+  background: white;
+  padding-top: 24px;
+}
+
+.spotlight {
+  margin: auto;
+  /* margin-top: 24px; */
+  width: 85%;
+  height: 400px;
+  background: url('../../images/nova-cover.jpeg');
+  background-origin: content-box;
+  background-size: cover;
+  background-position: center right;
+  border-radius: 6px;
+  position: relative;
+}
+
+.spotlight:hover {
+  cursor: pointer;
+}
+
+.spotlight-text {
+  position: absolute;
+  color: rgb(233, 239, 241);
+  font-weight: bold;
+  bottom: 8px;
+  left: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .spotlight {
+    width: 94%;
+    height: 240px;
+  }
+}

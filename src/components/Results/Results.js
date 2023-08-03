@@ -23,7 +23,7 @@ function Results ({myBooks, addRemove}) {
   }, [query, index])
 
   if (isLoading) {
-    return (<p>loading...</p>)
+    return (<p className="loading">loading...</p>)
   } else if (results.length) {
       return (
       <div className='results-container'>

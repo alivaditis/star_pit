@@ -4,10 +4,14 @@ import ButtonToRead from '../ButtonToRead/ButtonToRead'
 import './Card.css'
 
 function Card ({book, myBooks, addRemove}) {
+  const onImageError = (e) => {
+    e.target.src = '../../images/nova-cover.jpeg'
+  }
+  
   return (
     <div className='card'>
       <Link to={`/books/${book.id}`}>
-        <img className='card-image' src={book.images.thumbnail}/>
+        <img className='card-image' src={book.images.thumbnail || ''} onError={onImageError}/>
       </Link>
       <div className='card-info'>
         <Link to={`/books/${book.id}`}>
@@ -16,7 +20,9 @@ function Card ({book, myBooks, addRemove}) {
         <p className='card-authors'>{book.authors.join(', ')}</p>
         {book.publishedDate && <p className='card-date'>{book.publishedDate.slice(0, 4)}</p>}
       </div>
-      <ButtonToRead book={book} myBooks={myBooks} addRemove={addRemove}/>
+      <div className='card-button'>
+        <ButtonToRead book={book} myBooks={myBooks} addRemove={addRemove}/>
+      </div>
     </div>
   )
 }

@@ -22,6 +22,21 @@ const cleanupBooks = (apiBooks) => {
   })
 }
 
+const cleanupSingleBook = (book) => {
+  return {
+    id: book.id,
+    title: book.volumeInfo.title,
+    authors: book.volumeInfo.authors || [],
+    publisher: book.volumeInfo.publisher,
+    publishedDate: book.volumeInfo.publishedDate,
+    images: {
+      smallThumbnail: book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : "",
+      thumbnail: book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : ""
+    },
+    status: null
+  }
+}
+
 const removeDuplicates = (books) => {
   return books.reduce((accumulator, current) => {
     let exists = accumulator.find(item => {
@@ -34,4 +49,4 @@ const removeDuplicates = (books) => {
   }, []);
 }
 
-export { removeTags, cleanupBooks, removeDuplicates }
+export { removeTags, cleanupBooks, removeDuplicates, cleanupSingleBook}

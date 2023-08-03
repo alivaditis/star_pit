@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import { getBookDetails } from '../../api'
-import { removeTags } from '../../helpers'
+import { removeTags, cleanupSingleBook } from '../../helpers'
 import ButtonToRead from '../ButtonToRead/ButtonToRead'
 import './Book.css'
 
@@ -24,13 +24,19 @@ function Book ({myBooks, addRemove}) {
   return (
   <>
     {isLoading ? 
-      <p>loading...</p> 
+      <p className='loading'>loading...</p> 
       : <div className='book'>
-          <img className='book-image' src={book.volumeInfo.imageLinks.thumbnail}></img>
-          <p>{book.volumeInfo.title}</p>
-          <p>{book.volumeInfo.authors.join(', ')}</p>
-          <ButtonToRead myBooks={myBooks} addRemove={addRemove} book={book}/>
-          <p>{removeTags(book.volumeInfo.description)}</p>
+          <div className='book-container'>
+            <img className='book-image' src={book.volumeInfo.imageLinks.thumbnail}></img>
+            <div className='book-info'>
+              <p className='book-title'>{book.volumeInfo.title}</p>
+              <p className='book-authors'>{book.volumeInfo.authors.join(', ')}</p>
+              <div className='book-button'>
+                  <ButtonToRead className='book-button' myBooks={myBooks} addRemove={addRemove} book={cleanupSingleBook(book)}/>
+              </div>
+            </div>
+          </div>
+          <p className='book-description'>{removeTags(book.volumeInfo.description)}</p>
         </div>}
   </>
   )

@@ -1,3 +1,8 @@
 .results-container {
   padding: 24px;
 }
+
+.loading {
+  text-align: center;
+  margin-top: 32px;
+}

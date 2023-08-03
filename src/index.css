@@ -1,3 +1,7 @@
+html {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -17,7 +21,14 @@ body {
   max-width: 1200px;
   min-height: 100vh;
   margin: auto;
+  color: rgb(37, 91, 112);
+  background-color: rgb(233, 239, 241);
+}
+
+main {
   background-color: white;
+  min-height: 100vh;
+  padding-bottom: 80px;
 }
 
 img, picture, video, canvas, svg {
