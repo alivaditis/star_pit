@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
-import './App.css';
+import './App.css'
+import mockUser from '../../mockUser'
 import Nav from '../Nav/Nav'
 import Landing from '../Landing/Landing'
 import Search from '../Search/Search'
@@ -8,29 +9,16 @@ import Results from '../Results/Results'
 import Book from '../Book/Book'
 import ToRead from '../ToRead/ToRead'
 import List from '../List/List'
-import Empty from '../Empty/Empty';
+import Empty from '../Empty/Empty'
 
 function App() {
-  const [myBooks, setMyBooks] = useState([{
-    "id": "Wo9pEAAAQBAJ",
-    "title": "The Terraformers",
-    "authors": [
-      "Annalee Newitz"
-    ],
-    "publisher": "Tor Books",
-    "publishedDate": "2023-01-31",
-    "images": {
-      "smallThumbnail": "http://books.google.com/books/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "thumbnail": "http://books.google.com/books/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
-    },
-    "status": "to-read"
-  }])
+  const [myBooks, setMyBooks] = useState(mockUser.books)
   const [apiError, setApiError] = useState(null)
   
   const addRemove = (book) => {
     const newBook = {...book, status: 'to-read'}
     if (myBooks.every(book => book.id !== newBook.id)) {
-      setMyBooks([...myBooks, newBook])
+      setMyBooks([newBook, ...myBooks])
     } else {
       const filtered = [...myBooks].filter(book => book.id !== newBook.id)
       setMyBooks(filtered)

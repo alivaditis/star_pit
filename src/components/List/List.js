@@ -9,11 +9,8 @@ function ToRead ({myBooks, addRemove, handleApiError}) {
   const {id} = useParams()
   const [listInfo, setListInfo] = useState(null)
   const [listBooks, setListBooks] = useState(null)
-  // const [isLoading, setIsLoading] = useState(true)
-
   
   useEffect(() => {
-    // setIsLoading(true)
     getList(id)
       .then(data => {
         setListInfo(data)
@@ -28,8 +25,6 @@ function ToRead ({myBooks, addRemove, handleApiError}) {
       })
       .catch(error => handleApiError(error))
     }, [id])
-
-    
 
   if (listInfo && listBooks) {
     return (
