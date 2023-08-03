@@ -22,13 +22,17 @@ function Book ({myBooks, addRemove, handleApiError}) {
       .catch(error => handleApiError(error))
   }, [id])
 
+  const onImageError = (e) => {
+    e.target.src = process.env.PUBLIC_URL + '/images/space.jpeg'
+  }
+
   return (
   <>
     {isLoading ? 
       <p className='loading'>loading...</p> 
       : <div className='book'>
           <div className='book-container'>
-            <img className='book-image' src={book.volumeInfo.imageLinks.thumbnail}></img>
+            <img className='book-image' src={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail : ''} onError={onImageError}></img>
             <div className='book-info'>
               <p className='book-title'>{book.volumeInfo.title}</p>
               <p className='book-authors'>{book.volumeInfo.authors.join(', ')}</p>

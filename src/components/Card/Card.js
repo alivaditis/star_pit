@@ -5,13 +5,13 @@ import './Card.css'
 
 function Card ({book, myBooks, addRemove}) {
   const onImageError = (e) => {
-    e.target.src = '../../images/nova-cover.jpeg'
+    e.target.src = process.env.PUBLIC_URL + '/images/space.jpeg'
   }
   
   return (
     <div className='card'>
       <Link to={`/books/${book.id}`}>
-        <img className='card-image' src={book.images.thumbnail || ''} onError={onImageError}/>
+        <img className='card-image' src={book.images? book.images.thumbnail : ''} onError={onImageError}/>
       </Link>
       <div className='card-info'>
         <Link to={`/books/${book.id}`}>

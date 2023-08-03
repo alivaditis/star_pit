@@ -26,14 +26,14 @@ function App() {
   }
 
   const handleApiError = (error) => {
-    setApiError(error)
+    setApiError(error.message)
   }
 
   return (
     <>
       <Nav/>
       <Search/>
-      {apiError ? <h2>{apiError.message}</h2> :
+      {apiError ? <h2 className='no-results'>{apiError}</h2> :
         <main>
           <Routes>
             <Route path='/' element={<Landing/>}/>
