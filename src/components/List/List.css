@@ -1,6 +1,13 @@
+.list-img {
+  width: 80%;
+  height: auto;
+  padding: 12px;
+  margin: auto;
+}
+
 .list-heading {
   padding: 24px;
-  color: rgb(37, 91, 112)
+  /* color: rgb(37, 91, 112) */
 }
 
 .list-description {
@@ -9,3 +16,4 @@
   margin-top: 12px;
   margin-bottom: 12px;
 }
+

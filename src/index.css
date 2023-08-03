@@ -18,10 +18,11 @@ code {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  max-width: 1200px;
+  max-width: 1000px;
   min-height: 100vh;
   margin: auto;
-  color: rgb(37, 91, 112);
+  /* color: rgb(37, 91, 112); */
+  color: black;
   background-color: rgb(233, 239, 241);
 }
 

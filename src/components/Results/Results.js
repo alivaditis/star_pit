@@ -4,7 +4,7 @@ import { getBooks } from '../../api'
 import Card from '../Card/Card'
 import './Results.css'
 
-function Results ({myBooks, addRemove}) {
+function Results ({myBooks, addRemove, handleApiError}) {
 
   
   const {query, index} = useParams()
@@ -20,6 +20,7 @@ function Results ({myBooks, addRemove}) {
         setTotalItems(data.totalItems)
         setIsLoading(false)
       })
+      .catch(error => handleApiError(error))
   }, [query, index])
 
   if (isLoading) {
@@ -30,7 +31,7 @@ function Results ({myBooks, addRemove}) {
         {results.map((book, mapIndex) => <Card key={mapIndex} book={book} myBooks={myBooks} addRemove={addRemove}/>)}
       </div>)
   } else {
-      return (<p>{`No results for ${query}`}</p>)
+      return (<p className='no-results'>{`No results for ${query}`}</p>)
   }
 
 }

@@ -12,7 +12,7 @@ const Landing = () => {
   return (
     <div className='landing-container'>
         <div className='spotlight' onClick={handleSpotlightClick}>
-          <p className='spotlight-text'>Author Spotlight: Samuel Delany</p>
+          <p className='spotlight-text'>Celebrating the Works of Samuel R Delany</p>
         </div>
     </div>
   )

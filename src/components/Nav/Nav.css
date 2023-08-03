@@ -2,8 +2,10 @@
   padding: 8px;
   display: flex;
   align-items: center;
-  color: rgb(233, 239, 241);
-  background-color: rgb(37, 91, 112);
+  /* color: rgb(233, 239, 241); */
+  /* background-color: rgb(37, 91, 112); */
+  color: white;
+  background-color: red;
 }
 
 .tab {
