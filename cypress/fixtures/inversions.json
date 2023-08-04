@@ -1,0 +1,84 @@
+{
+  "kind": "books#volume",
+  "id": "cO00U2Llra8C",
+  "etag": "liZz0B4TYf0",
+  "selfLink": "https://www.googleapis.com/books/v1/volumes/cO00U2Llra8C",
+  "volumeInfo": {
+      "title": "Inversions",
+      "authors": [
+          "Iain M. Banks"
+      ],
+      "publisher": "Simon and Schuster",
+      "publishedDate": "2007-10-19",
+      "description": "Iain M. Banks, the international bestselling author of The Player of Games and Consider Phlebas, is a true original, a literary visionary whose brilliant speculative fiction has transported us into worlds of unbounded imagination. Now, in his acclaimed new novel, Banks presents an engrossing portrait of an alien world, and of two very different people bound by a startling and mysterious secret.On a backward world with six moons, an alert spy reports on the doings of one Dr. Vosill, who has mysteriously become the personal physician to the king despite being a foreigner and, even more unthinkably, a woman. Vosill has more enemies than she first realizes. But then she also has more remedies in hand than those who wish her ill can ever guess. <br><br> Elsewhere, in another palace across the mountains, a man named DeWar serves as chief bodyguard to the Protector General of Tassasen, a profession he describes as the business of \"assassinating assassins.\" DeWar, too, has his enemies, but his foes strike more swiftly, and his means of combating them are more direct. <br><br> No one trusts the doctor, and the bodyguard trusts no one, but is there a hidden commonality linking their disparate histories? Spiraling around a central core of mystery, deceit, love, and betrayal. Inversions is a dazzling work of science fiction from a versatile and imaginative author writing at the height of his remarkable powers.",
+      "industryIdentifiers": [
+          {
+              "type": "ISBN_10",
+              "identifier": "1416583785"
+          },
+          {
+              "type": "ISBN_13",
+              "identifier": "9781416583783"
+          }
+      ],
+      "readingModes": {
+          "text": false,
+          "image": false
+      },
+      "pageCount": 352,
+      "printedPageCount": 358,
+      "dimensions": {
+          "height": "22.90 cm",
+          "width": "15.20 cm",
+          "thickness": "2.50 cm"
+      },
+      "printType": "BOOK",
+      "categories": [
+          "Fiction / Science Fiction / General",
+          "Fiction / Science Fiction / Action & Adventure",
+          "Fiction / Science Fiction / Hard Science Fiction"
+      ],
+      "averageRating": 4,
+      "ratingsCount": 33,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.3.1.0.preview.0",
+      "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+      },
+      "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=cO00U2Llra8C&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70PRpfP_hA2wOMl8SnyKwSiIv06jd0AipIVRcwEemvQAra2Sp_e7NEG9wM2C-7VAZhZf-hI8cKUEYjxQauG9hNisJ5_iaoD_1V4mcoa9ZkssghJ4k3zg1tkPgVm9fOSVN8_n-Zy&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=cO00U2Llra8C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE712fSwg02bp_-lVU3mBajRJWQzHvLkuzwROAJbfLvRXZSi_cGv1KV4ER2KL4ZCT9vUHNP5r4SWTAnA9pjdXB2CJ5BwdSfLfqFYpYSzkc2ymHllFzeYBKzCk_2Tt_m--wLIybsWW&source=gbs_api",
+          "small": "http://books.google.com/books/content?id=cO00U2Llra8C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72gDuAGnjsGhLVfdiFMjoMJE1Jq2D0q6ru-03tHeF5nHS23Enr8ASIHKYJ7v2nvLfS5ZL31PAwq-l7OTlF5pOgNwbA7l88lKTIZn9o4Ki8rWAYQg3vCCSOpsa0JE349PRboguzh&source=gbs_api",
+          "medium": "http://books.google.com/books/content?id=cO00U2Llra8C&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE71vuPpfooqaJkTgzAKHipw3QhUd0NkFH4NwKFTW6tEPxAIksQF2hSs7K98TDqZsvOzpU6oHiR_zpl6-3tR2bD5Odnh8VLLuVd2FHWfydGuJb9phq7PPvqDopbaMskjqN7SZe9uV&source=gbs_api",
+          "large": "http://books.google.com/books/content?id=cO00U2Llra8C&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73oLDsdWLdHLRezKd3KJgE_Z7NpFdm_mbo7PqqlwLsPzXAP8qfSUpUSU1euLWrpWt5TyVqe5l7qSQRpKasK2emYODwrhTjzRmHWsVxFCvDyysE_KAc5cNR-BdGVugcqETXdjMYS&source=gbs_api",
+          "extraLarge": "http://books.google.com/books/content?id=cO00U2Llra8C&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72rk9CNvoYeh9ZS-TZcO71QxKFFbURSuRhgEe5Vy52Z-jDM81BIyghEeB8tIUHKNVvxL3rY5rh3I71Pp9wGogtR-ulzYGBxPclZSakCfbwDWgyB8cCzLx7BpHmo5bkYnwy3CUbv&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=cO00U2Llra8C&hl=&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=cO00U2Llra8C&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cO00U2Llra8C"
+  },
+  "saleInfo": {
+      "country": "US",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+  },
+  "accessInfo": {
+      "country": "US",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+      "epub": {
+          "isAvailable": false
+      },
+      "pdf": {
+          "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=cO00U2Llra8C&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+  }
+}

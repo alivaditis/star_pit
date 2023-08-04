@@ -48,6 +48,8 @@
     display: flex;
     padding: 24px;
     justify-content: center;
+    width: 60%;
+    margin: auto;
   }  
   
   .book-info {

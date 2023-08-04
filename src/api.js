@@ -45,5 +45,3 @@ const getBooksInList = (id) => {
 
 
 export { getBooks, getBookDetails, getList, getBooksInList }
-
-// https://www.googleapis.com/books/v1/users/106535247720687769777/bookshelves/1001/volumes?key=AIzaSyBACq7M2VZ-nfZ60w20s2Kyq4OoRo-1LZE
