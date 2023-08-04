@@ -13,7 +13,7 @@ A sci-fi reader's resource
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e" /> 
 
-[Sound-Stash DEPLOYED LINK](https://star-pit-z6mv.vercel.app/)
+[Star Pit DEPLOYED LINK](https://star-pit-z6mv.vercel.app/)
 </div>
 
 
