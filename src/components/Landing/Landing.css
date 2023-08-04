@@ -7,7 +7,7 @@
   margin: auto;
   /* margin-top: 24px; */
   width: 85%;
-  height: 400px;
+  height: 360px;
   background-image: url('../../../public/images/nova-cover.jpeg');
   background-origin: content-box;
   background-size: cover;
@@ -24,12 +24,14 @@
 
 .spotlight2 {
   background-image: url('../../../public/images/Excession-Youll.webp');
+  height: 240px;
   flex-basis: 60%;
 }
 
 .spotlight3 {
   background-image: url('../../../public/images/wildseed.jpeg');
   background-position: center;
+  height: 240px;
   flex-basis: 40%;
 }
 
@@ -49,7 +51,7 @@
 @media screen and (max-width: 600px) {
   .spotlight {
     width: 94%;
-    height: 240px;
+    height: 180px;
   }
   
   .lower-container {
