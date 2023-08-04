@@ -26,12 +26,14 @@ A website for sci-fi readers that uses the fetch API to get information from the
 <div align="center">
 
   <h2> Cell Phone Display: </h2>
+  
 ![ezgif com-video-to-gif (3)](https://github.com/alivaditis/star_pit/assets/123565022/1fe0f878-29c2-4c6c-8719-cf59841a7452)
 
 
   <br>  
 
   <h2> Desktop Display: </h2>
+  
 ![ezgif com-video-to-gif (5)](https://github.com/alivaditis/star_pit/assets/123565022/16698c83-94c5-4722-9fb3-88b34adcf0ae)
 
 ![ezgif com-video-to-gif (4)](https://github.com/alivaditis/star_pit/assets/123565022/29d8c99e-a924-4cc9-9b1b-4d8698bfaeaf)
