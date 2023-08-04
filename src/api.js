@@ -1,8 +1,11 @@
 import { cleanupBooks, removeDuplicates } from "./helpers"
 
-function handleError(res) {
+async function handleError(res) {
   if(!res.ok) {
-    throw new Error(`HTTP Error: ${res.status} -- Please try again later`)
+    // const {error} = await res.json()
+    // const {code, message} = error
+    // throw new Error(`HTTP Error: ${code}/n${message}`)
+    throw new Error(`HTTP Error: ${res.status} /n We could not load the content you are looking for`)
   }
   return res.json()
 }
@@ -42,5 +45,3 @@ const getBooksInList = (id) => {
 
 
 export { getBooks, getBookDetails, getList, getBooksInList }
-
-// https://www.googleapis.com/books/v1/users/106535247720687769777/bookshelves/1001/volumes?key=AIzaSyBACq7M2VZ-nfZ60w20s2Kyq4OoRo-1LZE

@@ -1,0 +1,109 @@
+{
+  "kind": "books#volume",
+  "id": "Wo9pEAAAQBAJ",
+  "etag": "HCHP1thc4p8",
+  "selfLink": "https://www.googleapis.com/books/v1/volumes/Wo9pEAAAQBAJ",
+  "volumeInfo": {
+      "title": "The Terraformers",
+      "authors": [
+          "Annalee Newitz"
+      ],
+      "publisher": "Tor Publishing Group",
+      "publishedDate": "2023-01-31",
+      "description": "<p><b>From science fiction visionary Annalee Newitz comes <i>The Terraformers</i>, a sweeping, uplifting, and illuminating exploration of the future. </b><br><br>Destry's life is dedicated to terraforming Sask-E. As part of the Environmental Rescue Team, she cares for the planet and its burgeoning eco-systems as her parents and their parents did before her.<br><br>But the bright, clean future they're building comes under threat when Destry discovers a city full of people that shouldn’t exist, hidden inside a massive volcano.<br><br>As she uncovers more about their past, Destry begins to question the mission she's devoted her life to, and must make a choice that will reverberate through Sask-E's future for generations to come. <br><br><b>A science fiction epic for our times and a love letter to our future, <i>The Terraformers</i> will take you on a journey spanning thousands of years and </b><b>exploring the triumphs, strife, and hope that find us wherever we make our home. </b><br><br><b>\"Brilliantly thoughtful, prescient, and gripping.”</b><b>—</b><b>Martha Wells, author of The Murderbot Diaries</b><br><br>Also by Annalee Newitz<br><i>Autonomous</i><br><i>The Future of Another Timeline</i><br><br>At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.</p>",
+      "industryIdentifiers": [
+          {
+              "type": "ISBN_10",
+              "identifier": "1250228069"
+          },
+          {
+              "type": "ISBN_13",
+              "identifier": "9781250228062"
+          }
+      ],
+      "readingModes": {
+          "text": true,
+          "image": false
+      },
+      "pageCount": 304,
+      "printedPageCount": 348,
+      "printType": "BOOK",
+      "categories": [
+          "Fiction / Science Fiction / Space Exploration",
+          "Fiction / Science Fiction / Hard Science Fiction"
+      ],
+      "averageRating": 3.5,
+      "ratingsCount": 4,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": true,
+      "contentVersion": "1.5.5.0.preview.2",
+      "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+      },
+      "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72y1HA6Vz2pqgvJ3MZmGLz-CHoS2J6boj0XR86eOOV0WPMDyHuZ_VAM3O2_3YNSsTWW4yTD2jITI58X1hEJoXBgnR5tmbaxT5E4agGBaL6gqqtbyRlbZEyclnXggkuoY9U0NSoY&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71GKSDE6OWWFOgT5rI_1NY0x5X0buiHo4pBZOVFetGKPwkMF4Y3XGLZ4D95RbYNbM4N3CpXL7li2iT9DctLZrL5rDwHE79YxqKm0NwuV8bLmSz2zgM_Tg-X0fLTWfVN6l8s6sB0&source=gbs_api",
+          "small": "http://books.google.com/books/publisher/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70lF2iIPgPBizeB9pvyBvIfOZdUDoGIxOFl0eTjv70hRnhWEYalgy04c7pJdEd4wV2W_hQtCYs8ozIq_GRn344r0gWIGaDyPh8x9lFBKATY32dDpQH3BQzIoSn2I0ou5Hjaarg6&source=gbs_api",
+          "medium": "http://books.google.com/books/publisher/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72cWJwa6sYmOr5YQF2Fta6w9489uVCIuX2yUWmjHuCWYeI3If5YVGaBk6aS32VlaFhH_Dmdcq4m4KK0kk9GF37gvnJLtUVOpkkNqIvzxTQgA0ZrXVQgR6q4sHbjMm5wJrpZFztU&source=gbs_api",
+          "large": "http://books.google.com/books/publisher/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE70Dx9hMz8VP09OYh6zNxs9pjWjl458nmZVT53-PF-VjOWFXPm0CC1HUSPArV3gFtEwAkpyeRuSmNrfy2uN06mZD1oi_dmZQXKveBN2baGNvS76uMqaM-muMTxmdtOE6bPSldr9T&source=gbs_api",
+          "extraLarge": "http://books.google.com/books/publisher/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE71QlyH414-MPkq7WnW2ujI4DDcpxt92GDEq2MYI9yeOlC0MSwJ6AMxp_doyH2dl0kDbkBjK22TWT0vk2PPgF7FtdXHWFNzzN_BZ8GKnyKcDiv3my_x5iM3QTpDNV88kV_HTYV9d&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=Wo9pEAAAQBAJ&hl=&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=Wo9pEAAAQBAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Wo9pEAAAQBAJ"
+  },
+  "layerInfo": {
+      "layers": [
+          {
+              "layerId": "geo",
+              "volumeAnnotationsVersion": "5"
+          }
+      ]
+  },
+  "saleInfo": {
+      "country": "US",
+      "saleability": "FOR_SALE",
+      "isEbook": true,
+      "listPrice": {
+          "amount": 14.99,
+          "currencyCode": "USD"
+      },
+      "retailPrice": {
+          "amount": 14.99,
+          "currencyCode": "USD"
+      },
+      "buyLink": "https://play.google.com/store/books/details?id=Wo9pEAAAQBAJ&rdid=book-Wo9pEAAAQBAJ&rdot=1&source=gbs_api",
+      "offers": [
+          {
+              "finskyOfferType": 1,
+              "listPrice": {
+                  "amountInMicros": 14990000,
+                  "currencyCode": "USD"
+              },
+              "retailPrice": {
+                  "amountInMicros": 14990000,
+                  "currencyCode": "USD"
+              },
+              "giftable": true
+          }
+      ]
+  },
+  "accessInfo": {
+      "country": "US",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+          "isAvailable": true
+      },
+      "pdf": {
+          "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=Wo9pEAAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+  }
+}

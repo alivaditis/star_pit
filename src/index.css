@@ -21,8 +21,8 @@ body {
   max-width: 1000px;
   min-height: 100vh;
   margin: auto;
-  /* color: rgb(37, 91, 112); */
-  color: black;
+  color: rgb(37, 91, 112);
+  /* color: black; */
   background-color: rgb(233, 239, 241);
 }
 

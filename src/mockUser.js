@@ -15,20 +15,6 @@ const mockUser = {
     "status": "to-read"
   },
   {
-    "id": "35RBDwAAQBAJ",
-    "title": "Nova",
-    "authors": [
-      "Samuel R. Delany"
-    ],
-    "publisher": "Vintage",
-    "publishedDate": "2002-06-11",
-    "images": {
-      "smallThumbnail": "http://books.google.com/books/content?id=35RBDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-      "thumbnail": "http://books.google.com/books/content?id=35RBDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
-    },
-    "status": "to-read"
-  },
-  {
     "id": "FbRDDwAAQBAJ",
     "title": "Aye, and Gomorrah",
     "authors": [

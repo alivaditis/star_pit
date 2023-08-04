@@ -5,14 +5,22 @@ import './Landing.css'
 const Landing = () => {
   const navigate = useNavigate()
   
-  const handleSpotlightClick = () => {
-    navigate('/lists/1001')
+  const handleSpotlightClick = (id) => {
+    navigate(`/lists/${id}`)
   }
   
   return (
     <div className='landing-container'>
-        <div className='spotlight' onClick={handleSpotlightClick}>
-          <p className='spotlight-text'>Celebrating the Works of Samuel R Delany</p>
+        <div className='spotlight' onClick={() => handleSpotlightClick('1001')}>
+          <p className='spotlight-text'>Celebrating the Works of Samuel R. Delany</p>
+        </div>
+        <div className='lower-container'>
+          <div className='spotlight spotlight2' onClick={() => handleSpotlightClick('1002')}>
+            <p className='spotlight-text'>Iain M. Banks: The Culture Series</p>
+          </div>
+          <div className='spotlight spotlight3' onClick={() => handleSpotlightClick('1003')}>
+            <p className='spotlight-text'>Octavia E. Butler: The Patternist Series</p>
+          </div> 
         </div>
     </div>
   )

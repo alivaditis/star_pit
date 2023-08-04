@@ -1,0 +1,520 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 7,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "35RBDwAAQBAJ",
+            "etag": "ET9LMMnmOzk",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/35RBDwAAQBAJ",
+            "volumeInfo": {
+                "title": "Nova",
+                "authors": [
+                    "Samuel R. Delany"
+                ],
+                "publisher": "Vintage",
+                "publishedDate": "2002-06-11",
+                "description": "Given that the suns of Draco stretch almost sixteen light years from end to end, it stands to reason that the cost of transportation is the most important factor of the 32nd century. And since Illyrion is the element most needed for space travel ...",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780375706707"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0375706704"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 257,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 3.5,
+                "ratingsCount": 15,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.0.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=35RBDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=35RBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "previewLink": "http://books.google.com/books?id=35RBDwAAQBAJ&printsec=frontcover&hl=&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=35RBDwAAQBAJ&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Nova.html?hl=&id=35RBDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=35RBDwAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "NAE9EAAAQBAJ",
+            "etag": "VG3ohSMP1D0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/NAE9EAAAQBAJ",
+            "volumeInfo": {
+                "title": "Dhalgren",
+                "authors": [
+                    "Samuel R. Delany"
+                ],
+                "publisher": "Vintage",
+                "publishedDate": "2001-05-15",
+                "description": "In one of the most profound and bestselling science fiction novels of all time, Samuel R. Delany has produced a novel \"to stand with the best American fiction of the 1970s\" (Jonathan Lethem, bestselling author of Fortress of Solitude). Bellona is ...",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780375706684"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0375706682"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 817,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 3,
+                "ratingsCount": 35,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.0.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=NAE9EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=NAE9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "previewLink": "http://books.google.com/books?id=NAE9EAAAQBAJ&printsec=frontcover&hl=&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=NAE9EAAAQBAJ&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Dhalgren.html?hl=&id=NAE9EAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=NAE9EAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "FbRDDwAAQBAJ",
+            "etag": "CQWBKFIWSQo",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/FbRDDwAAQBAJ",
+            "volumeInfo": {
+                "title": "Aye, and Gomorrah",
+                "subtitle": "And Other Stories",
+                "authors": [
+                    "Samuel R. Delany"
+                ],
+                "publisher": "Vintage",
+                "publishedDate": "2003-04-08",
+                "description": "A father must come to terms with his son's death in the war. In Venice an architecture student commits a crime of passion. A white southern airport loader tries to do a favor for a black northern child. The ordinary stuff of ordinary fiction--but ...",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780375706714"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0375706712"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 402,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4,
+                "ratingsCount": 2,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.4.0.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=FbRDDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=FbRDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "previewLink": "http://books.google.com/books?id=FbRDDwAAQBAJ&printsec=frontcover&hl=&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=FbRDDwAAQBAJ&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Aye_and_Gomorrah.html?hl=&id=FbRDDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=FbRDDwAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "bRAFCAAAQBAJ",
+            "etag": "59t4J5lrnhU",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/bRAFCAAAQBAJ",
+            "volumeInfo": {
+                "title": "Stars in My Pocket Like Grains of Sand",
+                "authors": [
+                    "Samuel R. Delany"
+                ],
+                "publisher": "Wesleyan University Press",
+                "publishedDate": "2004-12-15",
+                "description": "The story of a truly galactic civilization with over 6,000 inhabited worlds. Stars in My Pocket Like Grains of Sand is a science fiction masterpiece, an essay on the inexplicability of sexual attractiveness, and an examination of interstellar ...",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780819567147"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0819567140"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 377,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4,
+                "ratingsCount": 9,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.0.1.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=bRAFCAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=bRAFCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "previewLink": "http://books.google.com/books?id=bRAFCAAAQBAJ&printsec=frontcover&hl=&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=bRAFCAAAQBAJ&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Stars_in_My_Pocket_Like_Grains_of_Sand.html?hl=&id=bRAFCAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=bRAFCAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "bqH6Et8fn-QC",
+            "etag": "KXaSHefpdcY",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/bqH6Et8fn-QC",
+            "volumeInfo": {
+                "title": "They Fly at Ciron",
+                "authors": [
+                    "Samuel R. Delany"
+                ],
+                "publisher": "Hachette UK",
+                "publishedDate": "2012-10-15",
+                "description": "SURRENDER TO THE FORCES OF MYERTA! A small pastoral village is invaded without warning by the armies of a distant empire sweeping across the world. Facing mortal danger for the first time in their history, the villagers must forge a pact with the ...",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780575119222"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0575119225"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 320,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.2.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=bqH6Et8fn-QC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=bqH6Et8fn-QC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "previewLink": "http://books.google.com/books?id=bqH6Et8fn-QC&hl=&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=bqH6Et8fn-QC&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/They_Fly_at_Ciron.html?hl=&id=bqH6Et8fn-QC"
+            },
+            "layerInfo": {
+                "layers": [
+                    {
+                        "layerId": "geo",
+                        "volumeAnnotationsVersion": "6"
+                    }
+                ]
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=bqH6Et8fn-QC&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "b3ISEAAAQBAJ",
+            "etag": "Y5ojAIhkIEo",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/b3ISEAAAQBAJ",
+            "volumeInfo": {
+                "title": "Babel-17/Empire Star",
+                "authors": [
+                    "Samuel R. Delany"
+                ],
+                "publisher": "Vintage",
+                "publishedDate": "2002-01-08",
+                "description": "Author of the bestselling Dhalgren and winner of four Nebulas and one Hugo, Samuel R. Delany is one of the most acclaimed writers of speculative fiction. Babel-17, winner of the Nebula Award for best novel of the year, is a fascinating tale of a ...",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780375706691"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0375706690"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 337,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4,
+                "ratingsCount": 17,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.0.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=b3ISEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=b3ISEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "previewLink": "http://books.google.com/books?id=b3ISEAAAQBAJ&printsec=frontcover&hl=&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=b3ISEAAAQBAJ&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Babel_17_Empire_Star.html?hl=&id=b3ISEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=b3ISEAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "sCmIxJscrdEC",
+            "etag": "7TBwhp8MrTc",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/sCmIxJscrdEC",
+            "volumeInfo": {
+                "title": "Trouble on Triton",
+                "subtitle": "An Ambiguous Heterotopia",
+                "authors": [
+                    "Samuel R. Delany"
+                ],
+                "publisher": "Wesleyan University Press",
+                "publishedDate": "1996-07-19",
+                "description": "Questions gender roles and sexual expectations in the story of Bron, a recent immigrant to the utopian society on the planet Triton, who becomes a woman to escape the pressures in his life",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "081956298X"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780819562982"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 332,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.4.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=sCmIxJscrdEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=sCmIxJscrdEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "previewLink": "http://books.google.com/books?id=sCmIxJscrdEC&printsec=frontcover&hl=&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=sCmIxJscrdEC&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Trouble_on_Triton.html?hl=&id=sCmIxJscrdEC"
+            },
+            "layerInfo": {
+                "layers": [
+                    {
+                        "layerId": "geo",
+                        "volumeAnnotationsVersion": "38"
+                    }
+                ]
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Trouble_on_Triton-sample-epub.acsm?id=sCmIxJscrdEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=sCmIxJscrdEC&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            }
+        }
+    ]
+}

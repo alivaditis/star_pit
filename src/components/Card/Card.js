@@ -1,17 +1,18 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import ButtonToRead from '../ButtonToRead/ButtonToRead'
+import PropTypes from 'prop-types'
 import './Card.css'
 
 function Card ({book, myBooks, addRemove}) {
   const onImageError = (e) => {
-    e.target.src = '../../images/nova-cover.jpeg'
+    e.target.src = process.env.PUBLIC_URL + '/images/space.jpeg'
   }
   
   return (
     <div className='card'>
       <Link to={`/books/${book.id}`}>
-        <img className='card-image' src={book.images.thumbnail || ''} onError={onImageError}/>
+        <img className='card-image' src={book.images? book.images.thumbnail : ''} onError={onImageError}/>
       </Link>
       <div className='card-info'>
         <Link to={`/books/${book.id}`}>
@@ -26,5 +27,33 @@ function Card ({book, myBooks, addRemove}) {
     </div>
   )
 }
+
+Card.propTypes = {
+  book: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    authors: PropTypes.arrayOf(PropTypes.string).isRequired,
+    publisher: PropTypes.string.isRequired,
+    publishedDate: PropTypes.string.isRequired,
+    images: PropTypes.shape({
+      smallThumbnail: PropTypes.string.isRequired,
+      thumbnail: PropTypes.string.isRequired,
+    }).isRequired,
+    status: PropTypes.string.isRequired,
+  }).isRequired,
+  myBooks: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    authors: PropTypes.arrayOf(PropTypes.string).isRequired,
+    publisher: PropTypes.string.isRequired,
+    publishedDate: PropTypes.string.isRequired,
+    images: PropTypes.shape({
+      smallThumbnail: PropTypes.string.isRequired,
+      thumbnail: PropTypes.string.isRequired,
+    }).isRequired,
+    status: PropTypes.string.isRequired,
+  })).isRequired,
+  addRemove: PropTypes.func.isRequired,
+};
 
 export default Card

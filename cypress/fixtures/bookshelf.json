@@ -1,0 +1,11 @@
+{
+  "kind": "books#bookshelf",
+  "id": 1001,
+  "title": "Celebrating the Works of Samuel R Delany",
+  "description": "Embark on a mesmerizing journey through the literary cosmos of Samuel R. Delany, a visionary author whose poetic prose and daring exploration of social themes have left an indelible mark on literature. This curated list celebrates Delany&#39;s genius, presenting a collection of his most captivating works that delve into themes of gender, sexuality, and the intricacies of human relationships.",
+  "access": "PUBLIC",
+  "updated": "2023-08-03T15:56:35.594Z",
+  "created": "2023-08-03T15:56:35.594Z",
+  "volumeCount": 7,
+  "volumesLastUpdated": "2023-08-03T03:41:17.019Z"
+}

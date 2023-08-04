@@ -26,14 +26,14 @@ function App() {
   }
 
   const handleApiError = (error) => {
-    setApiError(error)
+    setApiError(error.message)
   }
 
   return (
     <>
       <Nav/>
       <Search/>
-      {apiError ? <h2>{apiError.message}</h2> :
+      {apiError ? <div className='no-results'>{apiError.split('/n').map((string, index) => <p key={index}>{string}</p>)}</div>  :
         <main>
           <Routes>
             <Route path='/' element={<Landing/>}/>
