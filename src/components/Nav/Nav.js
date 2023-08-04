@@ -10,7 +10,6 @@ const Nav = () => {
     <Link to='/'>
       <h1>The Star Pit</h1>
     </Link>
-    {/* <Search /> */}
     <Link className='tab' to='/to-read'>
       <h2>My Books</h2>
     </Link>
