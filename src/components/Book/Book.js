@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import { getBookDetails } from '../../api'
 import { removeTags, cleanupSingleBook, formatDate } from '../../helpers'
+import PropTypes from 'prop-types'
 import ButtonToRead from '../ButtonToRead/ButtonToRead'
 import './Book.css'
 
@@ -50,6 +51,23 @@ function Book ({myBooks, addRemove, handleApiError}) {
         </div>}
   </>
   )
+}
+
+Book.propTypes = {
+  myBooks: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    authors: PropTypes.arrayOf(PropTypes.string).isRequired,
+    publisher: PropTypes.string.isRequired,
+    publishedDate: PropTypes.string.isRequired,
+    images: PropTypes.shape({
+      smallThumbnail: PropTypes.string.isRequired,
+      thumbnail: PropTypes.string.isRequired,
+    }).isRequired,
+    status: PropTypes.string.isRequired,
+  })).isRequired,
+  addRemove: PropTypes.func.isRequired,
+  handleApiError: PropTypes.func.isRequired,
 }
 
 export default Book

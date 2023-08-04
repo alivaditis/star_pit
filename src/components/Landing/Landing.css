@@ -49,9 +49,14 @@
 }
 
 @media screen and (max-width: 600px) {
+  
+  .landing-container {
+    padding-top: 0;
+  }
+  
   .spotlight {
-    width: 94%;
-    height: 180px;
+    width: 100%;
+    height: 200px;
   }
   
   .lower-container {

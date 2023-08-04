@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import ButtonToRead from '../ButtonToRead/ButtonToRead'
+import PropTypes from 'prop-types'
 import './Card.css'
 
 function Card ({book, myBooks, addRemove}) {
@@ -26,5 +27,33 @@ function Card ({book, myBooks, addRemove}) {
     </div>
   )
 }
+
+Card.propTypes = {
+  book: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    authors: PropTypes.arrayOf(PropTypes.string).isRequired,
+    publisher: PropTypes.string.isRequired,
+    publishedDate: PropTypes.string.isRequired,
+    images: PropTypes.shape({
+      smallThumbnail: PropTypes.string.isRequired,
+      thumbnail: PropTypes.string.isRequired,
+    }).isRequired,
+    status: PropTypes.string.isRequired,
+  }).isRequired,
+  myBooks: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    authors: PropTypes.arrayOf(PropTypes.string).isRequired,
+    publisher: PropTypes.string.isRequired,
+    publishedDate: PropTypes.string.isRequired,
+    images: PropTypes.shape({
+      smallThumbnail: PropTypes.string.isRequired,
+      thumbnail: PropTypes.string.isRequired,
+    }).isRequired,
+    status: PropTypes.string.isRequired,
+  })).isRequired,
+  addRemove: PropTypes.func.isRequired,
+};
 
 export default Card
