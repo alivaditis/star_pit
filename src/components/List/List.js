@@ -30,7 +30,7 @@ function List ({myBooks, addRemove, handleApiError}) {
   if (listInfo && listBooks) {
     return (
     <>
-      <img className='list-img' src ={process.env.PUBLIC_URL + listImages[id]}/>
+      <img className='list-img' src ={process.env.PUBLIC_URL + listImages[id][0]} alt={process.env.PUBLIC_URL + listImages[id][1]}/>
       <h2 className='list-heading'>{listInfo.title} {listBooks.length ? `(${listBooks.length})` : ''} </h2>
       <p className='list-description'>{listInfo.description.replaceAll('&#39;', "'").replaceAll('&quot;','"')}</p>
       <div className='results-container'>

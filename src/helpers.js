@@ -17,7 +17,7 @@ const cleanupBooks = (apiBooks) => {
         smallThumbnail: book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : "",
         thumbnail: book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : ""
       },
-      status: null
+      status: ''
     })
   })
 }
@@ -33,7 +33,7 @@ const cleanupSingleBook = (book) => {
       smallThumbnail: book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : "",
       thumbnail: book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : ""
     },
-    status: null
+    status: ''
   }
 }
 

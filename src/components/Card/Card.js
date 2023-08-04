@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import ButtonToRead from '../ButtonToRead/ButtonToRead'
 import PropTypes from 'prop-types'
@@ -12,7 +12,7 @@ function Card ({book, myBooks, addRemove}) {
   return (
     <div className='card'>
       <Link to={`/books/${book.id}`}>
-        <img className='card-image' src={book.images? book.images.thumbnail : ''} onError={onImageError}/>
+        <img className='card-image' src={book.images? book.images.thumbnail : ''} alt={`${book.title} by ${book.authors.join(', ')}`}onError={onImageError}/>
       </Link>
       <div className='card-info'>
         <Link to={`/books/${book.id}`}>

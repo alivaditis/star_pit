@@ -34,7 +34,7 @@ function Book ({myBooks, addRemove, handleApiError}) {
       : <div className='book-view'>
         <div className='book'>
           <div className='book-container'>
-            <img className='book-image' src={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail : ''} onError={onImageError}></img>
+            <img className='book-image' src={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail : ''} alt={`${book.volumeInfo.title} by ${book.volumeInfo.authors.join(', ')}`}onError={onImageError}></img>
             <div className='book-info'>
               <p className='book-title'>{book.volumeInfo.title}</p>
               <p className='book-authors'>{book.volumeInfo.authors.join(', ')}</p>
