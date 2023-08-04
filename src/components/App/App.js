@@ -33,7 +33,7 @@ function App() {
     <>
       <Nav/>
       <Search/>
-      {apiError ? <h2 className='no-results'>{apiError}</h2> :
+      {apiError ? <div className='no-results'>{apiError.split('/n').map(string => <p>{string}</p>)}</div>  :
         <main>
           <Routes>
             <Route path='/' element={<Landing/>}/>

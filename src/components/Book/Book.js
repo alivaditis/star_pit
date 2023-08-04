@@ -43,7 +43,7 @@ function Book ({myBooks, addRemove, handleApiError}) {
               </div>
             </div>
           </div>
-          <p className='book-description'>{removeTags(book.volumeInfo.description)}</p>
+          <div className='book-description'>{removeTags(book.volumeInfo.description)}</div>
         </div>}
   </>
   )

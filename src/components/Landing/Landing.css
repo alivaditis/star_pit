@@ -8,12 +8,29 @@
   /* margin-top: 24px; */
   width: 85%;
   height: 400px;
-  background: url('../../../public/images/nova-cover.jpeg');
+  background-image: url('../../../public/images/nova-cover.jpeg');
   background-origin: content-box;
   background-size: cover;
-  background-position: center right;
-  border-radius: 6px;
+  background-position: right;
+  /* border-radius: 6px; */
   position: relative;
+}
+
+.lower-container {
+  display: flex;
+  width: 85%;
+  margin: auto;
+}
+
+.spotlight2 {
+  background-image: url('../../../public/images/Excession-Youll.webp');
+  flex-basis: 60%;
+}
+
+.spotlight3 {
+  background-image: url('../../../public/images/wildseed.jpeg');
+  background-position: center;
+  flex-basis: 40%;
 }
 
 .spotlight:hover {
@@ -23,6 +40,7 @@
 .spotlight-text {
   position: absolute;
   color: rgb(233, 239, 241);
+  text-shadow: 2px 2px black;
   font-weight: bold;
   bottom: 8px;
   left: 8px;
@@ -32,5 +50,10 @@
   .spotlight {
     width: 94%;
     height: 240px;
+  }
+  
+  .lower-container {
+    display: block;
+    width: 100%;
   }
 }

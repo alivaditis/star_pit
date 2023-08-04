@@ -31,7 +31,7 @@ function ToRead ({myBooks, addRemove, handleApiError}) {
     <>
       <img className='list-img' src ={process.env.PUBLIC_URL + listImages[id]}/>
       <h2 className='list-heading'>{listInfo.title} {listBooks.length ? `(${listBooks.length})` : ''} </h2>
-      <p className='list-description'>{listInfo.description.replace('&#39;', "'")}</p>
+      <p className='list-description'>{listInfo.description.replaceAll('&#39;', "'").replaceAll('&quot;','"')}</p>
       <div className='results-container'>
         {listBooks.map((book, mapIndex) => <Card key={mapIndex} book={book} myBooks={myBooks} addRemove={addRemove}/>)}
       </div>
