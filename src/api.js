@@ -1,8 +1,11 @@
 import { cleanupBooks, removeDuplicates } from "./helpers"
 
-function handleError(res) {
+async function handleError(res) {
   if(!res.ok) {
-    throw new Error(`HTTP Error: ${res.status} /n We could not load the content you are looking for.`)
+    // const {error} = await res.json()
+    // const {code, message} = error
+    // throw new Error(`HTTP Error: ${code}/n${message}`)
+    throw new Error(`HTTP Error: ${res.status} /n We could not load the content you are looking for`)
   }
   return res.json()
 }
