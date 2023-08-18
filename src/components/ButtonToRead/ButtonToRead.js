@@ -5,7 +5,7 @@ import './ButtonToRead.css'
 function ButtonToRead({book, myBooks, addRemove, action}) {
   return (
     <button className='to-read-button' onClick={() => addRemove(book, action)}>
-      <img className='add-icon' src={myBooks.some(myBook => myBook.id === book.id && myBook.status === action)  ? process.env.PUBLIC_URL + "/images/check.svg" : process.env.PUBLIC_URL + "/images/add.svg" }/> {action}
+      <img className='add-icon' src={myBooks.some(myBook => myBook.id === book.id && myBook.status === action)  ? process.env.PUBLIC_URL + "/images/check.svg" : process.env.PUBLIC_URL + "/images/add.svg" }/> <p className='action'>{action}</p>
     </button>)
 }
 
