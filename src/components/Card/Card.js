@@ -22,7 +22,9 @@ function Card ({book, myBooks, addRemove}) {
         {book.publishedDate && <p className='card-date'>{book.publishedDate.slice(0, 4)}</p>}
       </div>
       <div className='card-button'>
-        <ButtonToRead book={book} myBooks={myBooks} addRemove={addRemove}/>
+        <ButtonToRead book={book} myBooks={myBooks} action='Want to Read' addRemove={addRemove}/>
+        <ButtonToRead book={book} myBooks={myBooks} action='Currently Reading' addRemove={addRemove}/>
+        <ButtonToRead book={book} myBooks={myBooks} action='Read' addRemove={addRemove}/>
       </div>
     </div>
   )

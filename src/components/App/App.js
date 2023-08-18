@@ -15,13 +15,20 @@ function App() {
   const [myBooks, setMyBooks] = useState(mockUser.books)
   const [apiError, setApiError] = useState(null)
   
-  const addRemove = (book) => {
-    const newBook = {...book, status: 'to-read'}
+  const addRemove = (book, action) => {
+    const newBook = {...book, status: action}
     if (myBooks.every(book => book.id !== newBook.id)) {
       setMyBooks([newBook, ...myBooks])
+      return
+    } else if (myBooks.some(book => book.id === newBook.id && book.status !== action)) {
+      const updatedList = [...myBooks]
+      updatedList.find(book => book.id === newBook.id).status = action
+      setMyBooks(updatedList)
+      return
     } else {
       const filtered = [...myBooks].filter(book => book.id !== newBook.id)
       setMyBooks(filtered)
+      return
     }
   }
 
@@ -40,7 +47,9 @@ function App() {
             <Route path='/search/:query/:index' element={<Results myBooks={myBooks} addRemove={addRemove} handleApiError={handleApiError}/>}/>
             <Route path='/books/:id' element={<Book myBooks={myBooks} addRemove={addRemove} handleApiError={handleApiError}/>}/>
             <Route path='/lists/:id' element={<List myBooks={myBooks} addRemove={addRemove} handleApiError={handleApiError}/>}/>
-            <Route path='/to-read' element={<ToRead myBooks={myBooks} addRemove={addRemove}/>}/>
+            <Route path='/to-read' element={<ToRead myBooks={myBooks} action={'Want to Read'} addRemove={addRemove}/>}/>
+            <Route path='/currently-reading' element={<ToRead myBooks={myBooks} action={'Currently Reading'} addRemove={addRemove}/>}/>
+            <Route path='/read' element={<ToRead myBooks={myBooks} action={'Read'} addRemove={addRemove}/>}/>
             <Route path='*' element={<Empty/>}/>
           </Routes>
         </main>

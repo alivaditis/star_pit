@@ -2,10 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './ButtonToRead.css'
 
-function ButtonToRead({book, myBooks, addRemove}) {
+function ButtonToRead({book, myBooks, addRemove, action}) {
   return (
-    <button className='to-read-button' onClick={() => addRemove(book)}>
-      <img className='add-icon' src={myBooks.some(myBook => myBook.id === book.id) ? process.env.PUBLIC_URL + "/images/check.svg" : process.env.PUBLIC_URL + "/images/add.svg" }/> want to read
+    <button className='to-read-button' onClick={() => addRemove(book, action)}>
+      <img className='add-icon' src={myBooks.some(myBook => myBook.id === book.id && myBook.status === action)  ? process.env.PUBLIC_URL + "/images/check.svg" : process.env.PUBLIC_URL + "/images/add.svg" }/> {action}
     </button>)
 }
 

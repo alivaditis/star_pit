@@ -12,7 +12,7 @@ const mockUser = {
       "smallThumbnail": "http://books.google.com/books/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
       "thumbnail": "http://books.google.com/books/content?id=Wo9pEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
     },
-    "status": "to-read"
+    "status": "Want to Read"
   },
   {
     "id": "FbRDDwAAQBAJ",
@@ -26,7 +26,7 @@ const mockUser = {
       "smallThumbnail": "http://books.google.com/books/content?id=FbRDDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
       "thumbnail": "http://books.google.com/books/content?id=FbRDDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
     },
-    "status": "to-read"
+    "status": "Want to Read"
   },
   {
     "id": "IqCdnDe9ZOQC",
@@ -40,7 +40,7 @@ const mockUser = {
       "smallThumbnail": "http://books.google.com/books/content?id=IqCdnDe9ZOQC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72WtmxRcinC43Ek8ecinEJs5YqEJ_J37nizARtUWWK-TvykOQbB8iEdSctZ-tSVPTR4IwLQYP4oOnQWdDZKzm8YIqWJnjVIpEijDbaroKZqp6RLrV-vVmNst7R-EvSg2rxXa6vL&source=gbs_api",
       "thumbnail": "http://books.google.com/books/content?id=IqCdnDe9ZOQC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72WtmxRcinC43Ek8ecinEJs5YqEJ_J37nizARtUWWK-TvykOQbB8iEdSctZ-tSVPTR4IwLQYP4oOnQWdDZKzm8YIqWJnjVIpEijDbaroKZqp6RLrV-vVmNst7R-EvSg2rxXa6vL&source=gbs_api"
     },
-    "status": "to-read"
+    "status": "Want to Read"
   },
   {
     "id": "WsCuU0VM8vcC",
@@ -54,7 +54,7 @@ const mockUser = {
       "smallThumbnail": "http://books.google.com/books/content?id=WsCuU0VM8vcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
       "thumbnail": "http://books.google.com/books/content?id=WsCuU0VM8vcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
     },
-    "status": "to-read"
+    "status": "Want to Read"
   }
 ]
 }
