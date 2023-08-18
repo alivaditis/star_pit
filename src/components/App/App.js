@@ -21,14 +21,16 @@ function App() {
     const newBook = {...book, status: action}
     if (myBooks.every(book => book.id !== newBook.id)) {
       setMyBooks([newBook, ...myBooks])
-      toast(`${newBook.title} was added to your ${action} list.`)
+      toast(`${newBook.title} was added to your "${action}" list.`)
     } else if (myBooks.some(book => book.id === newBook.id && book.status !== action)) {
       const updatedList = [...myBooks]
       updatedList.find(book => book.id === newBook.id).status = action
       setMyBooks(updatedList)
+      toast(`${newBook.title} was moved to your "${action}" list.`)
     } else {
       const filtered = [...myBooks].filter(book => book.id !== newBook.id)
       setMyBooks(filtered)
+      toast(`${newBook.title} was removed from your "${action}" list.`)
     }
   }
 
@@ -52,6 +54,11 @@ function App() {
             <Route path='/read' element={<ToRead myBooks={myBooks} action={'Read'} addRemove={addRemove}/>}/>
             <Route path='*' element={<Empty/>}/>
           </Routes>
+          <ToastContainer 
+            position="bottom-center"
+            autoClose={3000}
+            theme='light'
+          />
         </main>
       }
     </>
