@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css'
 import mockUser from '../../mockUser'
 import Nav from '../Nav/Nav'
@@ -19,16 +21,14 @@ function App() {
     const newBook = {...book, status: action}
     if (myBooks.every(book => book.id !== newBook.id)) {
       setMyBooks([newBook, ...myBooks])
-      return
+      toast(`${newBook.title} was added to your ${action} list.`)
     } else if (myBooks.some(book => book.id === newBook.id && book.status !== action)) {
       const updatedList = [...myBooks]
       updatedList.find(book => book.id === newBook.id).status = action
       setMyBooks(updatedList)
-      return
     } else {
       const filtered = [...myBooks].filter(book => book.id !== newBook.id)
       setMyBooks(filtered)
-      return
     }
   }
 
