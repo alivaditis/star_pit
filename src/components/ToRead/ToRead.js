@@ -8,7 +8,7 @@ function ToRead ({myBooks, addRemove, action}) {
   return (
     <>
       <h2 className='list-heading'>{action} {filtered.length ? `(${filtered.length})` : ''} </h2>
-      {!myBooks.length && <h2 className="no-results">Add some books to your {action} list.</h2>}
+      {!filtered.length && <h2 className="no-results">Add some books to your list.</h2>}
       <div className='results-container'>
         {filtered.map((book, mapIndex) => <Card key={mapIndex} book={book} myBooks={myBooks} addRemove={addRemove}/>)}
       </div>
