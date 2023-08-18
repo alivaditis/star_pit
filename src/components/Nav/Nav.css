@@ -14,6 +14,10 @@
   display: inline-block;
 }
 
+.dropdown-button:hover {
+  cursor: default;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;

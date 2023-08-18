@@ -10,7 +10,7 @@ const Nav = () => {
       <h1>The Star Pit</h1>
     </Link>
     <div className='dropdown'>
-      <h2 class='dropdown-button'>My Books </h2>
+      <h2 className='dropdown-button'>My Books</h2>
       <div class='dropdown-content'>
         <Link className='tab' to='/to-read'>
           <p>Want to Read</p>
