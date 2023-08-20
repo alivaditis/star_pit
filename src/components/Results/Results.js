@@ -13,7 +13,6 @@ function Results ({myBooks, addRemove, handleApiError}) {
   
   const page = parseInt(index) + 1
 
-  
   useEffect(() => {
     setIsLoading(true)
     getBooks(query, index)

@@ -10,7 +10,6 @@ function Book ({myBooks, addRemove, handleApiError}) {
   const [book, setBook] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
 
-
   const { id } = useParams()
   
   useEffect(() => {
