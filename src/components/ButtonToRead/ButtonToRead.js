@@ -2,10 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './ButtonToRead.css'
 
-function ButtonToRead({book, myBooks, addRemove}) {
+function ButtonToRead({book, myBooks, addRemove, action}) {
   return (
-    <button className='to-read-button' onClick={() => addRemove(book)}>
-      {myBooks.some(myBook => myBook.id === book.id) ? '-' : '+' } want to read
+    <button className='to-read-button' onClick={() => addRemove(book, action)}
+    style={{
+      backgroundColor: myBooks.some(myBook => myBook.id === book.id && myBook.status === action) && 'rgb(37, 91, 112)'
+    }}>
+    <img className='add-icon' src={myBooks.some(myBook => myBook.id === book.id && myBook.status === action)  ? process.env.PUBLIC_URL + "/images/check.svg" : process.env.PUBLIC_URL + "/images/add.svg" }/> <p className='action'>{action}</p>
     </button>)
 }
 
@@ -14,8 +17,6 @@ ButtonToRead.propTypes = {
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     authors: PropTypes.arrayOf(PropTypes.string).isRequired,
-    publisher: PropTypes.string.isRequired,
-    publishedDate: PropTypes.string.isRequired,
     images: PropTypes.shape({
       smallThumbnail: PropTypes.string.isRequired,
       thumbnail: PropTypes.string.isRequired,
@@ -26,7 +27,6 @@ ButtonToRead.propTypes = {
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     authors: PropTypes.arrayOf(PropTypes.string).isRequired,
-    publisher: PropTypes.string.isRequired,
     publishedDate: PropTypes.string.isRequired,
     images: PropTypes.shape({
       smallThumbnail: PropTypes.string.isRequired,

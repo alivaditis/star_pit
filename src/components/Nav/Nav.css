@@ -1,5 +1,5 @@
 .nav-star-pit {
-  padding: 8px;
+  padding: 20px;
   display: flex;
   align-items: center;
   color: rgb(233, 239, 241);
@@ -8,6 +8,40 @@
   background-color: red; */
 }
 
-.tab {
+.dropdown {
   margin-left: auto;
+  position: relative;
+  display: inline-block;
 }
+
+.dropdown-button {
+  min-width: 140px;
+  text-align: right;
+}
+
+.dropdown-button:hover {
+  cursor: default;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* right: 5%; */
+  background-color: white;
+  color: rgb(37, 91, 112);
+  /* background-color: #f1f1f1; */
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content p {
+  padding-left: 8px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content p:hover {background-color: #ddd;}
+

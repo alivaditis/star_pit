@@ -8,7 +8,10 @@ function Search() {
 
   function handleSubmit(event) {
     event.preventDefault()
-    navigate(`/search/${inputValue}/0`)
+    if (inputValue) {
+      navigate(`/search/${inputValue}/0`)
+      setInput('')
+    }
   }
 
   return (

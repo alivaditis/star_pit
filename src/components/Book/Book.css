@@ -40,7 +40,7 @@
   margin: auto;
   margin-top: 12px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 500px) {
@@ -59,7 +59,8 @@
 
   .book-image {
     margin: 0;
-    width: 124px;
+    height: 174px;
+    width: auto;
     margin-right:  24px;
   }
 

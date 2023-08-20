@@ -10,7 +10,6 @@ function Book ({myBooks, addRemove, handleApiError}) {
   const [book, setBook] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
 
-
   const { id } = useParams()
   
   useEffect(() => {
@@ -42,7 +41,9 @@ function Book ({myBooks, addRemove, handleApiError}) {
               <p className='secondary-detail'>{book.volumeInfo.publishedDate ? formatDate(book.volumeInfo.publishedDate) : ''}</p>
               <p className='secondary-detail'>{book.volumeInfo.pageCount} pages</p>
               <div className='book-button'>
-                  <ButtonToRead className='book-button' myBooks={myBooks} addRemove={addRemove} book={cleanupSingleBook(book)}/>
+                  <ButtonToRead className='book-button' myBooks={myBooks} action='Want to Read' addRemove={addRemove} book={cleanupSingleBook(book)}/>
+                  <ButtonToRead className='book-button' myBooks={myBooks} action='Currently Reading' addRemove={addRemove} book={cleanupSingleBook(book)}/>
+                  <ButtonToRead className='book-button' myBooks={myBooks} action='Read' addRemove={addRemove} book={cleanupSingleBook(book)}/>
               </div>
             </div>
           </div>
