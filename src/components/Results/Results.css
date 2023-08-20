@@ -2,8 +2,38 @@
   padding: 24px;
 }
 
+.results-for {
+  margin-bottom: 8px;
+}
+
 .loading, .no-results {
   text-align: center;
   padding-top: 32px;
   font-size: 1.2rem;
+}
+
+.page-button {
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  text-decoration: none;
+  margin-right: 6px;
+}
+
+.page-button:hover {
+  cursor: pointer;
+  scale: 1.2;
+}
+
+.page {
+  margin-right: 6px;
+}
+
+.pagination {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 180px;
+  align-items: center;
+  justify-content: center;
 }

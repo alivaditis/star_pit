@@ -7,7 +7,9 @@
   margin: auto;
   /* margin-top: 24px; */
   width: 85%;
-  height: 360px;
+  height: 450px;
+  /* width: 60%;
+  height: 360px; */
   background-image: url('../../../public/images/nova-cover.jpeg');
   background-origin: content-box;
   background-size: cover;

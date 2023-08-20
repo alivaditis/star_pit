@@ -14,6 +14,10 @@
   display: inline-block;
 }
 
+.dropdown-button {
+  min-width: 140px;
+}
+
 .dropdown-button:hover {
   cursor: default;
 }
@@ -21,7 +25,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  right: 5%;
+  /* right: 5%; */
   background-color: white;
   color: rgb(37, 91, 112);
   /* background-color: #f1f1f1; */

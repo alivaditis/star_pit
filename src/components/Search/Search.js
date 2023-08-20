@@ -10,6 +10,7 @@ function Search() {
     event.preventDefault()
     if (inputValue) {
       navigate(`/search/${inputValue}/0`)
+      setInput('')
     }
   }
 

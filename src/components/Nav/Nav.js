@@ -11,7 +11,7 @@ const Nav = () => {
     </Link>
     <div className='dropdown'>
       <h2 className='dropdown-button'>My Books</h2>
-      <div class='dropdown-content'>
+      <div className='dropdown-content'>
         <Link className='tab' to='/to-read'>
           <p>Want to Read</p>
         </Link>

@@ -14,8 +14,6 @@ ButtonToRead.propTypes = {
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     authors: PropTypes.arrayOf(PropTypes.string).isRequired,
-    publisher: PropTypes.string.isRequired,
-    publishedDate: PropTypes.string.isRequired,
     images: PropTypes.shape({
       smallThumbnail: PropTypes.string.isRequired,
       thumbnail: PropTypes.string.isRequired,
@@ -26,7 +24,6 @@ ButtonToRead.propTypes = {
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     authors: PropTypes.arrayOf(PropTypes.string).isRequired,
-    publisher: PropTypes.string.isRequired,
     publishedDate: PropTypes.string.isRequired,
     images: PropTypes.shape({
       smallThumbnail: PropTypes.string.isRequired,
