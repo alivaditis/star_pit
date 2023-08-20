@@ -16,6 +16,7 @@
 
 .dropdown-button {
   min-width: 140px;
+  text-align: right;
 }
 
 .dropdown-button:hover {

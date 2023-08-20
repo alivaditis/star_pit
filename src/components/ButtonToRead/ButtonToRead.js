@@ -6,7 +6,7 @@ function ButtonToRead({book, myBooks, addRemove, action}) {
   return (
     <button className='to-read-button' onClick={() => addRemove(book, action)}
     style={{
-      backgroundColor: myBooks.some(myBook => myBook.id === book.id && myBook.status === action) && '#4CAF50'
+      backgroundColor: myBooks.some(myBook => myBook.id === book.id && myBook.status === action) && 'rgb(37, 91, 112)'
     }}>
     <img className='add-icon' src={myBooks.some(myBook => myBook.id === book.id && myBook.status === action)  ? process.env.PUBLIC_URL + "/images/check.svg" : process.env.PUBLIC_URL + "/images/add.svg" }/> <p className='action'>{action}</p>
     </button>)

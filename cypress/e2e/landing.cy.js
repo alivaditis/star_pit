@@ -24,6 +24,8 @@ describe('landing', () => {
 
   it("As a user I should be able to navigate to the to-read page when clicking the 'My Books' tab button", () => {
     cy.get('h2').first().click()
+      .get('.dropdown-content').invoke('show')
+      .get('.tab').first().click()
       .url().should('includes', '/to-read')
   })
 
