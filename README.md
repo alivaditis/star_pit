@@ -13,12 +13,12 @@ A sci-fi reader's resource
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e" /> 
 
-[Star Pit DEPLOYED LINK](https://star-pit-z6mv.vercel.app/)
+[Star Pit DEPLOYED LINK](https://starpit.net/)
 </div>
 
 
 ## Abstract: 
-A website for sci-fi readers that uses the fetch API to get information from the [Google Books Api](https://developers.google.com/books) and render that data. Users can search for sci-fi books, view information for a specific book, and save them to a 'to-read' list. Additionally uses can browse curated lists, which are accessed through the bookshelves enpoint of the Google Books Api.  The app uses network requests to access information about sci-fi books and utilizes react router to create a multi-page experience, tested using Cypress.
+A website for sci-fi readers that uses the fetch API to get information from the [Google Books Api](https://developers.google.com/books) and render that data. Users can search for sci-fi books, view information for a specific book, and save them to a 'want to read', 'currently reading', or 'read' list. Additionally uses can browse curated lists, which are accessed through the bookshelves enpoint of the Google Books Api.  The app uses network requests to access information about sci-fi books and utilizes react router to create a multi-page experience, tested using Cypress.
 
 ## Preview of App:
 
