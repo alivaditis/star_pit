@@ -20,7 +20,6 @@ const Login = () => {
   const googleProvider = new GoogleAuthProvider()
   const loginGoogle = () => {
     signInWithRedirect(auth, googleProvider)
-    .then((res) => console.log(res))
   }
   
   return (

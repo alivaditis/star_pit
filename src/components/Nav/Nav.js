@@ -3,10 +3,9 @@ import { signOut } from 'firebase/auth'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { auth } from '../../firebase'
 import { Link, useNavigate } from 'react-router-dom'
-import Login from '../Login/Login'
 import './Nav.css'
 
-const Nav = ({ handleApiError }) => {
+const Nav = ({ handleApiError, loginGoogle }) => {
 
   const [user, loading] = useAuthState(auth)
   
@@ -44,7 +43,11 @@ const Nav = ({ handleApiError }) => {
         </div>
       </div>
       :
-      <Login/>
+      <button className='login'>
+        <h2 onClick={loginGoogle}>
+          Log In
+        </h2>
+      </button>
     }
   </header>)
 }
