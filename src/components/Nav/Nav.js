@@ -28,7 +28,10 @@ const Nav = ({ handleApiError, loginGoogle }) => {
     </Link>
     {user ?
       <div className='dropdown'>
-        <h2 className='dropdown-button'>My Books</h2>
+        <div className='dropdown-button'>
+          <img className='user-pic'src={user.photoURL}/>
+          <h2>{user.displayName ? user.displayName.split(' ')[0] : 'My Books'}</h2>
+        </div>
         <div className='dropdown-content'>
           <Link className='tab' to='/to-read'>
             <p>Want to Read</p>
