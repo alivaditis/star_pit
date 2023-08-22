@@ -14,6 +14,7 @@
   display: inline-block;
 }
 
+
 .dropdown-button {
   min-width: 140px;
   text-align: right;
@@ -36,12 +37,17 @@
 }
 
 .dropdown-content p {
-  padding-left: 8px;
+  padding: 4px 6px;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  cursor: pointer;
 }
 
 .dropdown-content p:hover {background-color: #ddd;}
+
+.login {
+  margin-left: auto;
+}
 

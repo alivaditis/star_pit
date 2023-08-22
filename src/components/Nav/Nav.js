@@ -1,13 +1,26 @@
 import React from 'react'
+import { signOut } from 'firebase/auth'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { auth } from '../../firebase'
-import {Link} from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Login from '../Login/Login'
 import './Nav.css'
 
-const Nav = () => {
+const Nav = ({ handleApiError }) => {
 
   const [user, loading] = useAuthState(auth)
+  
+  const navigate = useNavigate()
+
+  const logOut = () => {
+    signOut(auth)
+      .then(() => {
+        navigate('/')
+      })
+    .catch((error) => {
+      handleApiError(error)
+    });
+  }
 
   return (
   <header className='nav-star-pit'>
@@ -27,6 +40,7 @@ const Nav = () => {
           <Link className='tab' to='/read'>
             <p>Read</p>
           </Link>
+          <p className='tab' onClick={logOut}>Log Out</p>
         </div>
       </div>
       :

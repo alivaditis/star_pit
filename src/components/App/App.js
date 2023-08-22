@@ -40,7 +40,7 @@ function App() {
 
   return (
     <>
-      <Nav/>
+      <Nav handleApiError={handleApiError}/>
       <Search/>
       {apiError ? <div className='no-results'>{apiError.split('/n').map((string, index) => <p key={index}>{string}</p>)}</div>  :
         <main>

@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 // import { FcGoogle } from 'react-icons/fc'
 import { GoogleAuthProvider, signInWithRedirect } from 'firebase/auth'
 import { auth } from '../../firebase'
+import './Login.css'
 
 const Login = () => {
   const navigate = useNavigate()
@@ -23,10 +24,12 @@ const Login = () => {
   }
   
   return (
-      <h2 onClick={loginGoogle}>
-        Log In
-        {/* <FcGoogle/> Sign in with Google */}
-      </h2>
+      <button className='login'>
+        <h2 onClick={loginGoogle}>
+          Log In
+          {/* <FcGoogle/> Sign in with Google */}
+        </h2>
+      </button>
   )
 }
 

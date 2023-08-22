@@ -1,0 +1,10 @@
+.login {
+  margin-left: auto;
+  color: inherit;
+  background-color: inherit;
+  border: none;
+}
+
+.login:hover {
+  cursor: pointer;
+}
