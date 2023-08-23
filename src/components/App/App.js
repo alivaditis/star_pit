@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useAuthState } from 'react-firebase-hooks/auth'
-import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth'
+import { GoogleAuthProvider, signInWithRedirect } from 'firebase/auth'
 import { get, ref, set } from 'firebase/database'
 import { auth, db } from '../../firebase'
 import { Routes, Route } from 'react-router-dom'
@@ -47,7 +47,7 @@ function App() {
   const googleProvider = new GoogleAuthProvider()
   
   const loginGoogle = () => {
-    signInWithPopup(auth, googleProvider)
+    signInWithRedirect(auth, googleProvider)
   }
   
   const addRemove = (book, action) => {
