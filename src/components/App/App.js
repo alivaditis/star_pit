@@ -1,4 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import { useAuthState } from 'react-firebase-hooks/auth'
+import { GoogleAuthProvider, signInWithRedirect } from 'firebase/auth'
+import { get, ref, set } from 'firebase/database'
+import { auth, db } from '../../firebase'
 import { Routes, Route } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -14,25 +18,81 @@ import List from '../List/List'
 import Empty from '../Empty/Empty'
 
 function App() {
+  const [user] = useAuthState(auth)
   const [myBooks, setMyBooks] = useState(mockUser.books)
   const [apiError, setApiError] = useState(null)
   
-  const addRemove = (book, action) => {
-    const newBook = {...book, status: action}
-    if (myBooks.every(book => book.id !== newBook.id)) {
-      setMyBooks([newBook, ...myBooks])
-      toast(`${newBook.title} was added to your "${action}" list.`)
-    } else if (myBooks.some(book => book.id === newBook.id && book.status !== action)) {
-      const updatedList = [...myBooks]
-      updatedList.find(book => book.id === newBook.id).status = action
-      setMyBooks(updatedList)
-      toast(`${newBook.title} was moved to your "${action}" list.`)
+  useEffect(() => {
+    if(user) {
+      const userBooksRef = ref(db, `users/${user.uid}/books`)
+      get(userBooksRef)
+        .then(snapshot => {
+          if (!snapshot.exists()) {
+            set(userBooksRef, [])
+              .then(() => {
+                setMyBooks([])
+              })
+            } else {
+              setMyBooks(snapshot.val())
+            }
+          })
+        .catch((error) => {
+          handleApiError(error);
+        })
     } else {
-      const filtered = [...myBooks].filter(book => book.id !== newBook.id)
-      setMyBooks(filtered)
-      toast(`${newBook.title} was removed from your "${action}" list.`)
+      setMyBooks([])
     }
+  }, [user])
+  
+  const googleProvider = new GoogleAuthProvider()
+  
+  const loginGoogle = () => {
+    signInWithRedirect(auth, googleProvider)
   }
+  
+  const addRemove = (book, action) => {
+    
+    if (!user) {
+      loginGoogle()
+      return
+    }
+    
+    const newBook = {...book, status: action}
+    const userBooksRef = ref(db, `users/${user.uid}/books`)
+  
+    get(userBooksRef)   
+      .then(snapshot => {
+        const existingBooks = snapshot.val();       
+        if (myBooks.every(book => book.id !== newBook.id && !existingBooks)) {
+          set(userBooksRef, [newBook])
+            .then(() => {
+              setMyBooks([newBook, ...myBooks])
+              toast(`"${newBook.title}" was added to your "${action}" list.`)
+            })
+        } else if (myBooks.every(book => book.id !== newBook.id)) {
+          set(userBooksRef, [newBook, ...existingBooks])
+            .then(() => {
+              setMyBooks([newBook, ...myBooks])
+              toast(`"${newBook.title}" was added to your "${action}" list.`)
+            })
+        } else if (myBooks.some(book => book.id === newBook.id && book.status !== action)) {
+          const updatedList = [...myBooks]
+          updatedList.find(book => book.id === newBook.id).status = action
+          set(userBooksRef, updatedList)
+            .then(() => {
+              setMyBooks(updatedList)
+              toast(`"${newBook.title}" was moved to your "${action}" list.`)
+            })
+        } else {
+          const filtered = [...myBooks].filter(book => book.id !== newBook.id)
+          set(userBooksRef, filtered)
+            .then(() => {
+              setMyBooks(filtered)
+              toast(`"${newBook.title}" was removed from your "${action}" list.`)
+            })
+        }
+      })
+    }
 
   const handleApiError = (error) => {
     setApiError(error.message)
@@ -40,7 +100,7 @@ function App() {
 
   return (
     <>
-      <Nav/>
+      <Nav handleApiError={handleApiError} loginGoogle={loginGoogle}/>
       <Search/>
       {apiError ? <div className='no-results'>{apiError.split('/n').map((string, index) => <p key={index}>{string}</p>)}</div>  :
         <main>
@@ -66,3 +126,4 @@ function App() {
 }
 
 export default App;
+  
