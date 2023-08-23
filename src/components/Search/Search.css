@@ -8,9 +8,6 @@
   display: flex;
   align-items: center;
   border: 1px solid rgb(37, 91, 112);
-  /* outline: none; */
-  /* border-radius: 5px; */
-  /* outline: 1px solid rgb(37, 91, 112); */
 }
 
 .search--input {
@@ -27,7 +24,8 @@
   height: 20px;
   width: 20px;
   background-image: url('../../../public/images/search.png');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-color: white;
   border: none;
 }
