@@ -67,28 +67,32 @@ function App() {
           set(userBooksRef, [newBook])
             .then(() => {
               setMyBooks([newBook, ...myBooks])
-              toast(`"${newBook.title}" was added to your "${action}" list.`)
+              toast(`"${newBook.title}" was added to your "${action}" shelf.`)
             })
         } else if (myBooks.every(book => book.id !== newBook.id)) {
           set(userBooksRef, [newBook, ...existingBooks])
             .then(() => {
               setMyBooks([newBook, ...myBooks])
-              toast(`"${newBook.title}" was added to your "${action}" list.`)
+              toast(`"${newBook.title}" was added to your "${action}" shelf.`)
             })
         } else if (myBooks.some(book => book.id === newBook.id && book.status !== action)) {
           const updatedList = [...myBooks]
-          updatedList.find(book => book.id === newBook.id).status = action
+          const index = updatedList.findIndex(book => book.id === newBook.id)
+          const foundBook = updatedList[index]
+          foundBook.status = action
+          updatedList.splice(index, 1)
+          updatedList.unshift(foundBook)
           set(userBooksRef, updatedList)
             .then(() => {
               setMyBooks(updatedList)
-              toast(`"${newBook.title}" was moved to your "${action}" list.`)
+              toast(`"${newBook.title}" was moved to your "${action}" shelf.`)
             })
         } else {
           const filtered = [...myBooks].filter(book => book.id !== newBook.id)
           set(userBooksRef, filtered)
             .then(() => {
               setMyBooks(filtered)
-              toast(`"${newBook.title}" was removed from your "${action}" list.`)
+              toast(`"${newBook.title}" was removed from your "${action}" shelf.`)
             })
         }
       })
