@@ -1,11 +1,13 @@
 .list-img {
   width: 100%;
   height: auto;
+  /* padding: 12px; */
   margin: auto;
 }
 
 .list-heading {
   padding: 24px;
+  /* color: rgb(37, 91, 112) */
 }
 
 .list-description {

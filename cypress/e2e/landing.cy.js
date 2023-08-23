@@ -9,7 +9,7 @@ describe('landing', () => {
     cy.visit('http://localhost:3000')
   })
   
-  it.skip('As a user I should see a Home button "The Star Pit", a "My Books" tab button, a search bar and content links', () => {
+  it('As a user I should see a Home button "The Star Pit", a "My Books" tab button, a search bar and content links', () => {
     cy.get('h1').contains('The Star Pit')
       .get('h2').first().contains('My Books')
       .get('.search--input').should('be.visible')
@@ -22,14 +22,14 @@ describe('landing', () => {
       .url().should('includes', '/')
   })
 
-  it.skip("As a user I should be able to navigate to the to-read page when clicking the 'My Books' tab button", () => {
+  it("As a user I should be able to navigate to the to-read page when clicking the 'My Books' tab button", () => {
     cy.get('h2').first().click()
       .get('.dropdown-content').invoke('show')
       .get('.tab').first().click()
       .url().should('includes', '/to-read')
   })
 
-  it.skip("As a user I should be able to navigate to a list by clicking the content link", () => {
+  it("As a user I should be able to navigate to a list by clicking the content link", () => {
     cy.get('.spotlight').first().click()
       .url().should('includes', 'lists/1001')
   })
