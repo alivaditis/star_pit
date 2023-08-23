@@ -17,7 +17,6 @@ function Results ({myBooks, addRemove, handleApiError}) {
     setIsLoading(true)
     getBooks(query, index)
     .then(data => {
-      console.log(data)
       setResults(data.items)
       setTotalItems(data.totalItems)
       setIsLoading(false)
