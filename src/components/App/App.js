@@ -1,4 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import { useAuthState } from 'react-firebase-hooks/auth'
+import { GoogleAuthProvider, signInWithRedirect } from 'firebase/auth'
+import { get, ref, set } from 'firebase/database'
+import { auth, db } from '../../firebase'
 import { Routes, Route } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -16,6 +20,34 @@ import Empty from '../Empty/Empty'
 function App() {
   const [myBooks, setMyBooks] = useState(mockUser.books)
   const [apiError, setApiError] = useState(null)
+  
+  useEffect(() => {
+    if(user) {
+      const userBooksRef = ref(db, `users/${user.uid}/books`)
+      get(userBooksRef)
+        .then(snapshot => {
+          if (!snapshot.exists()) {
+            set(userBooksRef, [])
+              .then(() => {
+                setMyBooks([])
+              })
+            } else {
+              setMyBooks(snapshot.val())
+            }
+          })
+        .catch((error) => {
+          handleApiError(error);
+        })
+    } else {
+      setMyBooks([])
+    }
+  }, [user])
+  
+  const googleProvider = new GoogleAuthProvider()
+  
+  const loginGoogle = () => {
+    signInWithRedirect(auth, googleProvider)
+  }
   
   const addRemove = (book, action) => {
     const newBook = {...book, status: action}
