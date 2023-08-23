@@ -8,9 +8,6 @@
   display: flex;
   align-items: center;
   border: 1px solid rgb(37, 91, 112);
-  /* outline: none; */
-  /* border-radius: 5px; */
-  /* outline: 1px solid rgb(37, 91, 112); */
 }
 
 .search--input {

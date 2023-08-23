@@ -7,7 +7,7 @@ import './Nav.css'
 
 const Nav = ({ handleApiError, loginGoogle }) => {
 
-  const [user, loading] = useAuthState(auth)
+  const [user] = useAuthState(auth)
   
   const navigate = useNavigate()
 
@@ -29,7 +29,7 @@ const Nav = ({ handleApiError, loginGoogle }) => {
     {user ?
       <div className='dropdown'>
         <div className='dropdown-button'>
-          <img className='user-pic'src={user.photoURL}/>
+          <img className='user-pic'src={user.photoURL} alt={`${user.displayName}`}/>
           <h2>{user.displayName ? user.displayName.split(' ')[0] : 'My Books'}</h2>
         </div>
         <div className='dropdown-content'>

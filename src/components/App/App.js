@@ -18,7 +18,7 @@ import List from '../List/List'
 import Empty from '../Empty/Empty'
 
 function App() {
-  const [user, loading] = useAuthState(auth)
+  const [user] = useAuthState(auth)
   const [myBooks, setMyBooks] = useState(mockUser.books)
   const [apiError, setApiError] = useState(null)
   
@@ -127,37 +127,3 @@ function App() {
 
 export default App;
   
-// const addRemove = (book) => {
-  
-//   if (!user) {
-//     navigate('/login')
-//     return
-//   }
-  
-//   const newBook = {...book, status: 'to-read'}
-//   const userBooksRef = ref(db, `users/${user.uid}/books`)
-  
-//   get(userBooksRef)
-//     .then(snapshot => {
-//       const existingBooks = snapshot.val();
-//       if (myBooks.every(book => book.id !== newBook.id) && !existingBooks) {
-//           set(userBooksRef, [newBook])
-//           .then(() => {
-//             setMyBooks([newBook, ...myBooks])
-//           })
-//         } else if (myBooks.every(book => book.id !== newBook.id)) {
-//           set(userBooksRef, [newBook, ...existingBooks])
-//           .then(() => {
-//             setMyBooks([newBook, ...myBooks])
-//           })
-//         } else {
-//         const filtered = [...myBooks].filter(book => book.id !== newBook.id)
-//         set(userBooksRef, filtered)
-//           .then(() => {
-//             setMyBooks(filtered)
-//           })
-//       }
-//     })
-//     .catch((error) => {
-//       handleApiError(error)
-//     })
