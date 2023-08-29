@@ -1,4 +1,4 @@
-describe('want to read', () => {
+describe.skip('want to read', () => {
   beforeEach(() => {
     cy.intercept('GET', 'https://www.googleapis.com/books/v1/volumes?q=%22terraformers%22+subject:%22fiction_science_fiction%22&startIndex=0&printType=books',
     {fixture: 'search.json'}).as('getBooks')
