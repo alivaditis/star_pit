@@ -50,9 +50,9 @@ A website for sci-fi readers that uses the fetch API to get information from the
   - Turing is a 7 month program, which offers a total of 4 modules. 
   - This project was completed during the third module that the program has to offer. 
   - Students are required to build a project demonstrating their understanding of React, Browser Router, and Cypres fundamentals.
--Further Iterations:
-  -multiple shelves for 'want to read', 'currently reading', and 'read'
-  -firebase user authentication/database 
+- Further Iterations:
+  - Multiple shelves for 'want to read', 'currently reading', and 'read'
+  - Firebase user authentication/database 
 
 ## Learning Goals:
 - Build a React project in 5 days
