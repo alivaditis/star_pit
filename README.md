@@ -18,23 +18,18 @@ A sci-fi reader's resource
 
 
 ## Abstract: 
-A website for sci-fi readers that uses the fetch API to get information from the [Google Books Api](https://developers.google.com/books) and render that data. Users can search for sci-fi books, view information for a specific book, and save them to a 'want to read', 'currently reading', or 'read' list. Additionally uses can browse curated lists, which are accessed through the bookshelves enpoint of the Google Books Api.  The app uses network requests to access information about sci-fi books and utilizes react router to create a multi-page experience, tested using Cypress.
+A website for sci-fi readers that uses the fetch API to get information from the [Google Books Api](https://developers.google.com/books)and render that data. Users can search for sci-fi books, view information for a specific book, and save them to a 'want to read', 'currently reading', or 'read' shelf. Additionally uses can browse curated lists, which are accessed through the bookshelves enpoint of the Google Books Api. The app uses network requests to access information about sci-fi books, utilizes react router to create a multi-page experience, handles user authentication and data with firebase auth/database, and is e2e tested using Cypress.
+
+
 
 ## Preview of App:
 
 <div align="center">
 
-  <h2> Desktop Display: </h2>
-  
-![ezgif com-video-to-gif (5)](https://github.com/alivaditis/star_pit/assets/123565022/16698c83-94c5-4722-9fb3-88b34adcf0ae)
-
-![ezgif com-video-to-gif (4)](https://github.com/alivaditis/star_pit/assets/123565022/29d8c99e-a924-4cc9-9b1b-4d8698bfaeaf)
-
-  <br>  
-  
-  <h2> Cell Phone Display: </h2>
-  
-![ezgif com-video-to-gif (3)](https://github.com/alivaditis/star_pit/assets/123565022/1fe0f878-29c2-4c6c-8719-cf59841a7452)
+<img width="1427" alt="Screen Shot 2023-08-27 at 10 18 02 PM" src="https://github.com/alivaditis/star_pit/assets/123565022/97abe61e-0e58-4b90-b04c-499b7c0ab827">
+<img width="1330" alt="Screen Shot 2023-08-27 at 10 17 04 PM" src="https://github.com/alivaditis/star_pit/assets/123565022/ee653352-4b9a-4e18-8b67-9e8ba5e0faac">
+<img width="1427" alt="Screen Shot 2023-08-27 at 10 16 16 PM" src="https://github.com/alivaditis/star_pit/assets/123565022/06efee44-93f3-48aa-aece-c81f8f7dfe0c">
+<img width="714" alt="Screen Shot 2023-08-27 at 10 15 00 PM" src="https://github.com/alivaditis/star_pit/assets/123565022/d82e16b2-007a-4b3f-825d-40f188f63675">
 
 
 </div>
@@ -54,7 +49,10 @@ A website for sci-fi readers that uses the fetch API to get information from the
   - Current student of Turing School of Software & Design. 
   - Turing is a 7 month program, which offers a total of 4 modules. 
   - This project was completed during the third module that the program has to offer. 
-  - Students are required to build a project demonstrating their understanding of React, Browser Router, and Cypres fundamentals. 
+  - Students are required to build a project demonstrating their understanding of React, Browser Router, and Cypres fundamentals.
+-Further Iterations:
+  -multiple shelves for 'want to read', 'currently reading', and 'read'
+  -firebase user authentication/database 
 
 ## Learning Goals:
 - Build a React project in 5 days
