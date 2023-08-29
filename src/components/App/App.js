@@ -7,7 +7,6 @@ import { Routes, Route } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './App.css'
-import mockUser from '../../mockUser'
 import Nav from '../Nav/Nav'
 import Landing from '../Landing/Landing'
 import Search from '../Search/Search'
@@ -19,7 +18,7 @@ import Empty from '../Empty/Empty'
 
 function App() {
   const [user] = useAuthState(auth)
-  const [myBooks, setMyBooks] = useState(mockUser.books)
+  const [myBooks, setMyBooks] = useState([])
   const [apiError, setApiError] = useState(null)
   
   useEffect(() => {
