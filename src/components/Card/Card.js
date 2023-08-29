@@ -35,7 +35,7 @@ Card.propTypes = {
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     authors: PropTypes.arrayOf(PropTypes.string).isRequired,
-    publishedDate: PropTypes.string.isRequired,
+    publishedDate: PropTypes.string,
     images: PropTypes.shape({
       smallThumbnail: PropTypes.string.isRequired,
       thumbnail: PropTypes.string.isRequired,
@@ -46,7 +46,7 @@ Card.propTypes = {
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     authors: PropTypes.arrayOf(PropTypes.string).isRequired,
-    publishedDate: PropTypes.string.isRequired,
+    publishedDate: PropTypes.string,
     images: PropTypes.shape({
       smallThumbnail: PropTypes.string.isRequired,
       thumbnail: PropTypes.string.isRequired,

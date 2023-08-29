@@ -57,6 +57,11 @@ function App() {
     }
     
     const newBook = {...book, status: action}
+
+    if (!newBook.publishedDate) {
+      newBook.publishedDate = ''
+    }
+ 
     const userBooksRef = ref(db, `users/${user.uid}/books`)
   
     get(userBooksRef)   
