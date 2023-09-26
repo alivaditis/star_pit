@@ -36,8 +36,7 @@ A website for sci-fi readers that uses the fetch API to get information from the
 </div>
 
 ## Installation Instructions 
-- Fork this repository. 
-- Clone it to your local machine using the command: `git clone git@github.com:alivaditis/star_pit.git`.
+- Clone to your local machine using the command: `git clone git@github.com:alivaditis/star_pit.git`.
 - Run the command: `cd star_pit`
 - Run the command: `npm install`
 - Run the command: `npm start`
