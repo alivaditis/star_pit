@@ -19,7 +19,7 @@ A sci-fi reader's resource
 
 
 ## Abstract: 
-A website for sci-fi readers that uses the fetch API to get information from the [Google Books Api](https://developers.google.com/books)and render that data. Users can search for sci-fi books, view information for a specific book, and save them to a 'want to read', 'currently reading', or 'read' shelf. Additionally uses can browse curated lists, which are accessed through the bookshelves enpoint of the Google Books Api. The app uses network requests to access information about sci-fi books, utilizes react router to create a multi-page experience, handles user authentication and data with firebase auth/database, and is e2e tested using Cypress.
+A website for sci-fi readers that uses the fetch API to get information from the [Google Books Api](https://developers.google.com/books) and render that data. Users can search for sci-fi books, view information for a specific book, and save them to a 'want to read', 'currently reading', or 'read' shelf. Additionally uses can browse curated lists, which are accessed through the bookshelves enpoint of the Google Books Api. The app uses network requests to access information about sci-fi books, utilizes react router to create a multi-page experience, handles user authentication and data with firebase auth/database, and is e2e tested using Cypress.
 
 
 
@@ -37,7 +37,7 @@ A website for sci-fi readers that uses the fetch API to get information from the
 
 ## Installation Instructions 
 - Fork this repository. 
-- Clone it to your local machine using the command: `git clone git@github.com:mbenfowler/sound-stash.git`.
+- Clone it to your local machine using the command: `git clone git@github.com:alivaditis/star_pit.git`.
 - Run the command: `cd star_pit`
 - Run the command: `npm install`
 - Run the command: `npm start`
@@ -50,7 +50,7 @@ A website for sci-fi readers that uses the fetch API to get information from the
   - Current student of Turing School of Software & Design. 
   - Turing is a 7 month program, which offers a total of 4 modules. 
   - This project was completed during the third module that the program has to offer. 
-  - Students are required to build a project demonstrating their understanding of React, Browser Router, and Cypres fundamentals.
+  - Students are required to build a project demonstrating their understanding of React, Browser Router, and Cypress fundamentals.
 - Further Iterations:
   - Multiple shelves for 'want to read', 'currently reading', and 'read'
   - Firebase user authentication/database 
