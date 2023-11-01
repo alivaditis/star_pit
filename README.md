@@ -55,7 +55,6 @@ A website for sci-fi readers that uses the fetch API to get information from the
   - Firebase user authentication/database 
 
 ## Learning Goals:
-- Build a React project in 5 days
 - Create a user interface that is easy to use and clearly displays information
 - Write DRY, reusable code that follows SRP and trends toward function purity
 - Make network requests (using fetch API)
